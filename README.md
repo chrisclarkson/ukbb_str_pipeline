@@ -2,10 +2,57 @@
 # ExpHunterV5 (DNAnexus Platform App)
 
 ExpansionHunter Version 5.0.0
+Takes a CRAM/BAM file from the UKBB platform and runs STR analysis on it as per the typical Expansion Hunter pipeline (https://github.com/Illumina/ExpansionHunter/).
+Firstly clone this repo.
+git clone https://github.com/chrisclarkson/ukbb_str_pipeline.git
+Secondly you must upload the app directory to your dnanexus folder
+e.g. `dx cd /path/of/interest`
+
+The upload is done as follows:
+`dx upload -r ehv5_mulit_original`
+
+then check that the folder is there with: `dx ls ehv5_mulit_original`
+
+Then install the app using:
+`dx build -f ehv5_multi_original`
+
+Then as as sample run one can analyse a single genome:
+`dx run ehv5_multi_original`
+You will be asked for the input options- a typical input will be as follows:
+```
+-ireads="Matteo_Pietro:/Bulk/Whole\ genome\ sequences/Whole\ genome\ CRAM\ files/12/1262532_23193_0_0.cram" 
+-isex=male 
+-ioutput_prefix=1262532  
+-ireference=GRCh38_full_analysis_set_plus_decoy_hla.fa
+-ivariant_catalog=variant_catalog_final.json 
+-ithreads=16 
+-ianalysis_mode=streaming 
+-ioutput_folder=output_dir/EHv5/
+```
+NOTE in order to run this command quickly without being prompted for inputs- do so as follows:
+```
+dx run ehv5_multi_original -ireads="Matteo_Pietro:/Bulk/Whole\ genome\ sequences/Whole\ genome\ CRAM\ files/12/1262532_23193_0_0.cram" \
+	-isex=male -ioutput_prefix=1262532  -ireference=GRCh38_full_analysis_set_plus_decoy_hla.fa \
+	-ivariant_catalog=variant_catalog_final.json -ithreads=16 -ianalysis_mode=streaming \
+	-ioutput_folder=output_dir/EHv5/ -y --brief --priority low
+```
+NOTE: `-y --brief` means don't ask anything before submitting and `--priority low` means keep cost as low as possible.
+
+Currently, as per the way that the app is setup- it the submitted job will cost ~0.007 pounds sterling.
+To keep costs down we currently submit one job per genome.
+To submit many jobs in parallel we do the following:
+```
+python create_submission_ehv5_multi.py eids_sex_path_sample_file.csv 1 > str_submit_ukkbb.sh #create bash file that will submit one job per sample as per the csv meta file
+chmod +x str_submit_ukkbb.sh
+./str_submit_ukkbb.sh
+```
+
+
 
 This is the source code for an app that runs on the DNAnexus Platform.
 For more information about how to run or modify it, see
 https://documentation.dnanexus.com/.
+
 <!-- /dx-header -->
 
 <!-- Insert a description of your app here -->
