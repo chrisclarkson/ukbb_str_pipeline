@@ -18,7 +18,7 @@ then check that the folder is there with: `dx ls ehv5_mulit_original`
 Then install the app using:
 `dx build -f ehv5_multi_original`
 
-Then as as sample run one can analyse a single genome:
+Then to run one sample can analyse a single genome:
 `dx run ehv5_multi_original`
 You will be asked for the input options- a typical input will be as follows:
 ```
