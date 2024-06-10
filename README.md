@@ -11,9 +11,9 @@ Secondly you must upload the app directory to your dnanexus folder- firstly ensu
 e.g. `dx cd /path/of/interest`
 
 The upload is done as follows:
-`dx upload -r ehv5_mulit_original`
+`dx upload -r ehv5_multi_original`
 
-then check that the folder is there with: `dx ls ehv5_mulit_original`
+then check that the folder is there with: `dx ls ehv5_multi_original`
 
 Then install the app using:
 `dx build -f ehv5_multi_original`
