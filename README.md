@@ -18,8 +18,9 @@ then check that the folder is there with: `dx ls ehv5_mulit_original`
 Then install the app using:
 `dx build -f ehv5_multi_original`
 
-Then to run one sample can analyse a single genome:
-`dx run ehv5_multi_original`
+Then to run one sample/analyse a single genome execute the following:
+```dx run ehv5_multi_original```
+
 You will be asked for the input options- a typical input will be as follows:
 ```
 -ireads="Matteo_Pietro:/Bulk/Whole\ genome\ sequences/Whole\ genome\ CRAM\ files/12/1262532_23193_0_0.cram" 
