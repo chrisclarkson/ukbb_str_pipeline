@@ -4,7 +4,7 @@
 ExpansionHunter Version 5.0.0
 Takes a CRAM/BAM file from the UKBB platform and runs STR analysis on it as per the typical Expansion Hunter pipeline (https://github.com/Illumina/ExpansionHunter/).
 Firstly clone this repo.
-git clone https://github.com/chrisclarkson/ukbb_str_pipeline.git
+```git clone https://github.com/chrisclarkson/ukbb_str_pipeline.git```
 
 
 Secondly you must upload the app directory to your dnanexus folder- firstly ensure you are in the folder where you want the app to upload:
