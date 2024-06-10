@@ -5,7 +5,9 @@ ExpansionHunter Version 5.0.0
 Takes a CRAM/BAM file from the UKBB platform and runs STR analysis on it as per the typical Expansion Hunter pipeline (https://github.com/Illumina/ExpansionHunter/).
 Firstly clone this repo.
 git clone https://github.com/chrisclarkson/ukbb_str_pipeline.git
-Secondly you must upload the app directory to your dnanexus folder
+
+
+Secondly you must upload the app directory to your dnanexus folder- firstly ensure you are in the folder where you want the app to upload:
 e.g. `dx cd /path/of/interest`
 
 The upload is done as follows:
@@ -29,7 +31,9 @@ You will be asked for the input options- a typical input will be as follows:
 -ianalysis_mode=streaming 
 -ioutput_folder=output_dir/EHv5/
 ```
-NOTE in order to run this command quickly without being prompted for inputs- do so as follows:
+NOTE: ensure the output folder exists before submitting the job- `dx mkdir output_dir;dx mkdir output_dir/EHv5/`
+
+In order to run this command quickly without being prompted for inputs- do so as follows:
 ```
 dx run ehv5_multi_original -ireads="Matteo_Pietro:/Bulk/Whole\ genome\ sequences/Whole\ genome\ CRAM\ files/12/1262532_23193_0_0.cram" \
 	-isex=male -ioutput_prefix=1262532  -ireference=GRCh38_full_analysis_set_plus_decoy_hla.fa \
