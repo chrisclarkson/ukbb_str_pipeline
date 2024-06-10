@@ -44,7 +44,7 @@ dx run ehv5_multi_original -ireads="Matteo_Pietro:/Bulk/Whole\ genome\ sequences
 ```
 NOTE: `-y --brief` means don't ask anything before submitting and `--priority low` means keep cost as low as possible.
 
-Currently, as per the way that the app is setup- it the submitted job will cost ~0.007 pounds sterling.
+Currently, as per the way that the app is setup- the submitted job will cost ~0.007 pounds sterling.
 To keep costs down we currently submit one job per genome.
 To submit many jobs in parallel we do the following:
 ```
