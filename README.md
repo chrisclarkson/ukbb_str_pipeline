@@ -8,8 +8,8 @@ Firstly clone this repo.
 ```git clone https://github.com/chrisclarkson/ukbb_str_pipeline.git```
 
 
-Secondly you must upload the app directory to your dnanexus folder- firstly ensure you are in the folder where you want the app to upload:
-e.g. `dx cd /path/of/interest`
+Secondly you must upload the app directory to your dnanexus folder (ensure you are in the folder where you want the app to upload:
+e.g. `dx cd /path/of/interest`)
 
 The upload is done as follows:
 `dx upload -r ehv5_multi_original`
