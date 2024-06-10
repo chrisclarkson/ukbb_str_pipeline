@@ -33,6 +33,7 @@ You will be asked for the input options- a typical input will be as follows:
 -ioutput_folder=output_dir/EHv5/
 ```
 NOTE: ensure the output folder exists before submitting the job- `dx mkdir output_dir;dx mkdir output_dir/EHv5/`
+NOTE: ensure that the reference genome that is indexed is in the exists in the path that you have specified for the `ireference` option (dx upload GRCh38_full_analysis_set_plus_decoy_hla.fa; dx upload GRCh38_full_analysis_set_plus_decoy_hla.fa.fai)
 
 In order to run this command quickly without being prompted for inputs- do so as follows:
 ```
