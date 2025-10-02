@@ -1,0 +1,57 @@
+{
+  "name": "compute_pcs_step2",
+  "title": "PCA perform",
+  "summary": "Perform PCA as efficiently as possible",
+  "dxapi": "1.0.0",
+  "version": "0.0.1",
+  "inputSpec": [
+    {
+      "name": "input_tar",
+      "label": "input_tar",
+      "class": "string",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "output_prefix",
+      "class": "array:string",
+      "optional": false,
+      "help": ""
+    }
+  ],
+  "outputSpec": [
+    {
+      "name": "PC_data",
+      "label": "output PCs",
+      "class": "file",
+      "patterns": [
+        "*"
+      ],
+      "help": ""
+    }
+  ],
+  "runSpec": {
+    "timeoutPolicy": {
+      "*": {
+        "hours": 48
+      }
+    },
+    "interpreter": "bash",
+    "file": "src/compute_pcs.sh",
+    "distribution": "Ubuntu",
+    "release": "20.04",
+    "version": "0"
+  },
+  "access": {
+    "project": "CONTRIBUTE"
+  },
+  "regionalOptions": {
+    "aws:eu-west-2": {
+      "systemRequirements": {
+        "*": {
+          "instanceType": "mem3_ssd3_x96"
+        }
+      }
+    }
+  }
+}

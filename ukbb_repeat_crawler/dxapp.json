@@ -1,0 +1,125 @@
+{
+  "name": "ukbb_repeat_crawler",
+  "title": "repeat crawler for ukbb",
+  "summary": "performs repeat crawler analysis on ukbb",
+  "dxapi": "1.0.0",
+  "version": "0.0.1",
+  "inputSpec": [
+    {
+      "name": "folder",
+      "class": "string",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "gene",
+      "class": "string",
+      "optional": true,
+      "help": ""
+    },
+    {
+      "name": "vcf_motif",
+      "class": "string",
+      "optional": true,
+      "help": ""
+    },
+    {
+      "name": "json",
+      "class": "string",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "span1",
+      "class": "string",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "span2",
+      "class": "string",
+      "optional": true,
+      "default":"null",
+      "help": ""
+    },
+    {
+      "name": "count1",
+      "class": "string",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "count2",
+      "class": "string",
+      "optional": true,
+      "default":"null",
+      "help": ""
+    },
+    {
+      "name": "output_name1",
+      "class": "string",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "output_name2",
+      "class": "string",
+      "optional": true,
+      "default":"null",
+      "help": ""
+    },
+    {
+      "name": "mount_project",
+      "class": "string",
+      "optional": true,
+      "help": "Which project to mount with dxfuse",
+      "default":"500k"
+    }
+  ],
+  "outputSpec": [
+    {
+      "name": "output1",
+      "class": "file",
+      "optional": false,
+      "help": ""
+    },
+    {
+      "name": "output2",
+      "class": "file",
+      "optional": true,
+      "help": ""
+    }
+  ],
+  "access": {
+      "network": [
+        "*"
+      ]
+    },
+  "runSpec": {
+    "execDepends": [
+    {"name": "pandas","package_manager": "pip3"},
+    {"name": "pysam","package_manager": "pip3"},
+    {"name": "numpy","package_manager": "pip3"},
+    {"name": "PyVCF3","package_manager": "pip3"}
+  ],
+    "timeoutPolicy": {
+      "*": {
+        "hours": 48
+      }
+    },
+    "interpreter": "bash",
+    "file": "src/ukbb_repeat_crawler.sh",
+    "distribution": "Ubuntu",
+    "release": "20.04",
+    "version": "0"
+  },
+  "regionalOptions": {
+    "aws:eu-west-2": {
+      "systemRequirements": {
+        "*": {
+          "instanceType": "mem1_ssd1_v2_x4"
+        }
+      }
+    }
+  }
+}
