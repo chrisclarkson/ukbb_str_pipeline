@@ -1,0 +1,593 @@
+Category.Field.ID	Description	Participants	Total.item.count..includes.1.or.more.visits.	V2	V6	V7	link	new_col_name	value_to_detect	date_col
+1	Population characteristics					NA	NA			
+2	Ongoing characteristics					NA				
+31	Sex	502150	502150			NA				
+33	Date of birth	502150	502150			NA				
+53	Date of attending assessment centre	502150	625904			NA				
+54	UK Biobank assessment centre	502150	625872			NA				
+68	Number of blood samples taken	500995	623544	p68_Date_first_reported_gt.90._Number_of_blood_samples_taken_._Instance_0		NA			gt.90%	p53_i0
+68	Number of blood samples taken	500995	623544	p68_Date_first_reported_gt.90._Number_of_blood_samples_taken_._Instance_1		NA			gt.90%	p53_i1
+68	Number of blood samples taken	500995	623544	p68_Date_first_reported_gt.90._Number_of_blood_samples_taken_._Instance_2		NA			gt.90%	p53_i2
+76	Indices of Multiple Deprivation					NA				
+87	Non-cancer illness year/age first occurred	397077	1376250			NA				
+100	Brain MRI					NA				
+116	Cognitive function online					NA				
+117	Pairs matching					NA				
+118	Fluid intelligence / reasoning					NA				
+120	Numeric memory					NA				
+121	Trail making					NA				
+122	Symbol digit substitution					NA				
+129	Place of birth in UK - north co-ordinate	451996	480794			NA				
+130	Place of birth in UK - east co-ordinate	451996	480794			NA				
+136	Mental health					NA				
+137	Mental distress					NA				
+138	Depression					NA				
+140	Anxiety					NA				
+142	Alcohol use					NA				
+146	Self-harm behaviours					NA				
+147	Happiness and subjective well-being					NA				
+154	Experience of pain					NA				
+155	Mood					NA				
+160	Health and well-being					NA				
+161	Matrix pattern completion					NA				
+163	Neurobiomarkers					NA				
+180	Whole genome sequences					NA				
+185	DRAGEN WGS					NA				
+190	Reason lost to follow-up	1297	1297			NA				
+191	Date lost to follow-up	1297	1297			NA				
+205	Sleep					NA				
+206	Sleep behaviour					NA				
+208	Quality of sleep					NA				
+209	Insomnia					NA				
+210	Sleep disturbances					NA				
+270	GATK and GraphTyper					NA				
+399	Number of incorrect matches in round	498709	1289304			NA				
+501	Matrix pattern completion					NA				
+502	Symbol digit substitution					NA				
+503	Tower rearranging					NA				
+504	Picture vocabulary					NA				
+505	Trail making					NA				
+506	Paired associate learning					NA				
+738	Average total household income before tax	497382	618765	p738_Date_first_reported_1_Average_total_household_income_before_tax_._Instance_0		NA			1	p53_i0
+738	Average total household income before tax	497382	618765	p738_Date_first_reported_5_Average_total_household_income_before_tax_._Instance_0		NA			5	p53_i0
+738	Average total household income before tax	497382	618765	p738_Date_first_reported_1_Average_total_household_income_before_tax_._Instance_1		NA			1	p53_i1
+738	Average total household income before tax	497382	618765	p738_Date_first_reported_5_Average_total_household_income_before_tax_._Instance_1		NA			5	p53_i1
+738	Average total household income before tax	497382	618765	p738_Date_first_reported_1_Average_total_household_income_before_tax_._Instance_2		NA			1	p53_i2
+738	Average total household income before tax	497382	618765	p738_Date_first_reported_5_Average_total_household_income_before_tax_._Instance_2		NA			5	p53_i2
+757	Time employed in main current job	288871	328892	p757_Date_first_reported_lt.10._Time_employed_in_main_current_job_._Instance_0		NA			lt.10%	p53_i0
+757	Time employed in main current job	288871	328892	p757_Date_first_reported_lt.10._Time_employed_in_main_current_job_._Instance_1		NA			lt.10%	p53_i1
+757	Time employed in main current job	288871	328892	p757_Date_first_reported_lt.10._Time_employed_in_main_current_job_._Instance_2		NA			lt.10%	p53_i2
+845	Age completed full time education	337215	354154			NA				
+1160	Sleep duration	501296	624065	p1160_Date_first_reported_gt.90._Sleep_duration_._Instance_0		NA			gt.90%	p53_i0
+1160	Sleep duration	501296	624065	p1160_Date_first_reported_gt.90._Sleep_duration_._Instance_1		NA			gt.90%	p53_i1
+1160	Sleep duration	501296	624065	p1160_Date_first_reported_gt.90._Sleep_duration_._Instance_2		NA			gt.90%	p53_i2
+1200	Sleeplessness / insomnia	501292	624061	p1200_Date_first_reported_gt.2_Sleeplessness_._insomnia_._Instance_0		NA			gt.2	p53_i0
+1200	Sleeplessness / insomnia	501292	624061	p1200_Date_first_reported_gt.2_Sleeplessness_._insomnia_._Instance_1		NA			gt.2	p53_i1
+1200	Sleeplessness / insomnia	501292	624061	p1200_Date_first_reported_gt.2_Sleeplessness_._insomnia_._Instance_2		NA			gt.2	p53_i2
+1220	Daytime dozing / sleeping	501292	624060	p1220_Date_first_reported_gt.2_Daytime_dozing_._sleeping_._Instance_0		NA			gt.2	p53_i0
+1220	Daytime dozing / sleeping	501292	624060	p1220_Date_first_reported_gt.2_Daytime_dozing_._sleeping_._Instance_1		NA			gt.2	p53_i1
+1220	Daytime dozing / sleeping	501292	624060	p1220_Date_first_reported_gt.2_Daytime_dozing_._sleeping_._Instance_2		NA			gt.2	p53_i2
+1358	Broken letter recognition					NA				
+1500	Mental well-being					NA				
+1501	Mental health					NA				
+1502	Depression					NA				
+1503	Mood changes					NA				
+1504	Anxiety and panic					NA				
+1506	Alcohol use					NA				
+1508	Harm behaviours					NA				
+1510	General health					NA				
+1512	Social situation					NA				
+1513	General well-being					NA				
+1558	Alcohol intake frequency	501286	624055	p1558_Date_first_reported_lt.3_Alcohol_intake_frequency_._Instance_0		NA			lt.3	p53_i0
+1558	Alcohol intake frequency	501286	624055	p1558_Date_first_reported_lt.3_Alcohol_intake_frequency_._Instance_1		NA			lt.3	p53_i1
+1558	Alcohol intake frequency	501286	624055	p1558_Date_first_reported_lt.3_Alcohol_intake_frequency_._Instance_2		NA			lt.3	p53_i2
+1712	First occurrences					NA				
+1807	Father's age at death	395775	485504			NA				
+2000	Hospital inpatient					NA				
+2002	Summary Diagnoses					NA				
+2050	Frequency of depressed mood in last 2 weeks	501276	624045			NA				
+2090	Seen doctor (GP) for nerves	anxiety	tension or depression	501272	624041	NA				
+2100	Seen a psychiatrist for nerves	anxiety	tension or depression	501272	624041	NA				
+2178	Overall health rating	501265	624034	p2178_Date_first_reported_gt.4_Overall_health_rating_._Instance_0		NA			gt.4	p53_i0
+2178	Overall health rating	501265	624034	p2178_Date_first_reported_gt.4_Overall_health_rating_._Instance_1		NA			gt.4	p53_i1
+2178	Overall health rating	501265	624034	p2178_Date_first_reported_gt.4_Overall_health_rating_._Instance_2		NA			gt.4	p53_i2
+2296	Falls in the last year	501263	624032	p2296_Date_first_reported_gt.90._Falls_in_the_last_year_._Instance_0		NA			gt.90%	p53_i0
+2296	Falls in the last year	501263	624032	p2296_Date_first_reported_gt.90._Falls_in_the_last_year_._Instance_1		NA			gt.90%	p53_i1
+2296	Falls in the last year	501263	624032	p2296_Date_first_reported_gt.90._Falls_in_the_last_year_._Instance_2		NA			gt.90%	p53_i2
+2405	Mental and behavioural disorders			p2405_Date_first_reported_gt.0_Number_of_children_fathered_._Instance_0		NA			gt.0	p53_i0
+2405	Mental and behavioural disorders			p2405_Date_first_reported_gt.0_Number_of_children_fathered_._Instance_1		NA			gt.0	p53_i1
+2405	Mental and behavioural disorders			p2405_Date_first_reported_gt.0_Number_of_children_fathered_._Instance_2		NA			gt.0	p53_i2
+2406	Nervous system disorders					NA				
+3000	Primary care					NA				
+3001	Record-level access					NA				
+3526	Mother's age at death	324093	392787			NA				
+4282	Maximum digits remembered correctly	91249	100054	p4282_Date_first_reported_lt.10._Maximum_digits_remembered_correctly__Instance_0		NA			lt.10%	p53_i0
+4282	Maximum digits remembered correctly	91249	100054	p4282_Date_first_reported_lt.10._Maximum_digits_remembered_correctly__Instance_1		NA			lt.10%	p53_i1
+4282	Maximum digits remembered correctly	91249	100054	p4282_Date_first_reported_lt.10._Maximum_digits_remembered_correctly__Instance_2		NA			lt.10%	p53_i2
+4526	Happiness	240523	295379	p4526_Date_first_reported_gt.3_Happiness_._Instance_0		NA			gt.3	p53_i0
+4526	Happiness	240523	295379	p4526_Date_first_reported_gt.3_Happiness_._Instance_1		NA			gt.3	p53_i1
+4526	Happiness	240523	295379	p4526_Date_first_reported_gt.3_Happiness_._Instance_2		NA			gt.3	p53_i2
+6138	Qualifications	498734	1145929			NA				
+6142	Current employment status	501312	681721			NA				
+6146	Attendance/disability/mobility allowance	501265	639906	p6146_Date_first_reported_.2.3._Attendance.disability.mobility_allowance_._Instance_0		NA			"equal to """"2 3"""""	p53_i0
+6146	Attendance/disability/mobility allowance	501265	639906	p6146_Date_first_reported_.2.3._Attendance.disability.mobility_allowance_._Instance_1		NA			"equal to """"2 3"""""	p53_i1
+6146	Attendance/disability/mobility allowance	501265	639906	p6146_Date_first_reported_.2.3._Attendance.disability.mobility_allowance_._Instance_2		NA			"equal to """"2 3"""""	p53_i2
+6159	Pain type(s) experienced in last month	501261	941234	p6159_Date_first_reported_1_Pain_types_experienced_in_last_month_._Instance_0		NA			1	p53_i0
+6159	Pain type(s) experienced in last month	501261	941234	p6159_Date_first_reported_1_Pain_types_experienced_in_last_month_._Instance_1		NA			1	p53_i1
+6159	Pain type(s) experienced in last month	501261	941234	p6159_Date_first_reported_1_Pain_types_experienced_in_last_month_._Instance_2		NA			1	p53_i2
+6325	Duration to entering symbol choice	74229	2672038			NA				
+6333	Duration spent answering each puzzle	74085	1087318			NA				
+6348	Duration to complete numeric path (trail #1)	74695	83839	p6348_Date_first_reported_lt.10._Duration_to_complete_numeric_path_trail_.1__Instance_2		NA			lt.10%	p53_i2
+6349	Total errors traversing numeric path (trail #1)	74695	83839	p6349_Date_first_reported_lt.10._Total_errors_traversing_numeric_path_trail_.1__Instance_2		NA			lt.10%	p53_i2
+6350	Duration to complete alphanumeric path (trail #2)	74695	83839	p6350_Date_first_reported_lt.10._Duration_to_complete_alphanumeric_path_trail_.2__Instance_2		NA			lt.10%	p53_i2
+6351	Total errors traversing alphanumeric path (trail #2)	74695	83839	p6351_Date_first_reported_lt.10._Total_errors_traversing_alphanumeric_path_trail_.2__Instance_2		NA			lt.10%	p53_i2
+6373	Number of puzzles correctly solved	74092	83157	p6373_Date_first_reported_lt.10._Number_of_puzzles_correctly_solved__Instance_2		NA			lt.10%	p53_i2
+20002	Non-cancer illness code	self-reported	397076	1376249		NA				
+20003	Treatment/medication code	380136	1476212			NA				
+20009	Interpolated Age of participant when non-cancer illness first diagnosed	397076	1376236			NA				
+20016	Fluid intelligence score	229668	280529	p20016_Date_first_reported_lt.10._Fluid_intelligence_score__Instance_0		NA			lt.10%	p53_i0
+20016	Fluid intelligence score	229668	280529	p20016_Date_first_reported_lt.10._Fluid_intelligence_score__Instance_1		NA			lt.10%	p53_i1
+20016	Fluid intelligence score	229668	280529	p20016_Date_first_reported_lt.10._Fluid_intelligence_score__Instance_2		NA			lt.10%	p53_i2
+20018	Prospective memory result	236375	288100	p20018_Date_first_reported_lt.10._Prospective_memory_result__Instance_0		NA			lt.10%	p53_i0
+20018	Prospective memory result	236375	288100	p20018_Date_first_reported_lt.10._Prospective_memory_result__Instance_1		NA			lt.10%	p53_i1
+20018	Prospective memory result	236375	288100	p20018_Date_first_reported_lt.10._Prospective_memory_result__Instance_2		NA			lt.10%	p53_i2
+20023	Mean time to correctly identify matches	496582	612444	p20023_Date_first_reported_lt.10._Mean_time_to_correctly_identify_matches__Instance_0		NA			lt.10%	p53_i0
+20023	Mean time to correctly identify matches	496582	612444	p20023_Date_first_reported_lt.10._Mean_time_to_correctly_identify_matches__Instance_1		NA			lt.10%	p53_i1
+20023	Mean time to correctly identify matches	496582	612444	p20023_Date_first_reported_lt.10._Mean_time_to_correctly_identify_matches__Instance_2		NA			lt.10%	p53_i2
+20107	Illnesses of father	488041	1305207			NA				
+20110	Illnesses of mother	492743	1315350			NA				
+20111	Illnesses of siblings	434063	1158045			NA				
+20115	Country of Birth (non-UK origin)	40525	40525			NA				
+20116	Smoking status	501292	624061	p20116_Date_first_reported_gt.1_Smoking_status_._Instance_0		NA			gt.1	p53_i0
+20116	Smoking status	501292	624061	p20116_Date_first_reported_gt.1_Smoking_status_._Instance_1		NA			gt.1	p53_i1
+20116	Smoking status	501292	624061	p20116_Date_first_reported_gt.1_Smoking_status_._Instance_2		NA			gt.1	p53_i2
+20117	Alcohol drinker status	501286	624055	p20117_Date_first_reported_gt.1_Alcohol_drinker_status_._Instance_0		NA			gt.1	p53_i0
+20117	Alcohol drinker status	501286	624055	p20117_Date_first_reported_gt.1_Alcohol_drinker_status_._Instance_1		NA			gt.1	p53_i1
+20117	Alcohol drinker status	501286	624055	p20117_Date_first_reported_gt.1_Alcohol_drinker_status_._Instance_2		NA			gt.1	p53_i2
+20118	Home area population density - urban or rural	497100	497100			NA				
+20123	Single episode of probable major depression	9747	9747	p20123_Date_first_reported_1_Single_episode_of_probable_major_depression_._Instance_0		NA			1	p53_i0
+20124	Probable recurrent major depression (moderate)	15227	15227	p20124_Date_first_reported_1_Probable_recurrent_major_depression_moderate_._Instance_0		NA			1	p53_i0
+20125	Probable recurrent major depression (severe)	9389	9389	p20125_Date_first_reported_1_Probable_recurrent_major_depression_severe_._Instance_0		NA			1	p53_i0
+20126	Bipolar and major depression status	122892	122892	p20126_Date_first_reported_gt.1_Bipolar_and_major_depression_status_._Instance_0		NA			gt.1	p53_i0
+20127	Neuroticism score	401301	401301	p20127_Date_first_reported_gt.60._Neuroticism_score_._Instance_0		NA			gt.60%	p53_i0
+20132	Number of incorrect matches in round	118452	251856	p20132_Date_first_reported_gt.90.c._Instance_0_._Array_0		NA			>=90 percentile	p20134_When_pairs_test_completed
+20132	Number of incorrect matches in round	118452	251856	p20132_Date_first_reported_gt.90._a1_Number_of_incorrect_matches_in_round_._Instance_0_._Array_1		NA			gt.90%	p20134_When_pairs_test_completed
+20132	Number of incorrect matches in round	118452	251856	p20132_Date_first_reported_gt.90._a2_Number_of_incorrect_matches_in_round_._Instance_0_._Array_2		NA			gt.90%	p20134_When_pairs_test_completed
+20134	When pairs test completed	118452	118452			NA				p20134_When_pairs_test_completed
+20135	When fluid intelligence test completed	212030	304141			NA				p20135_When_fluid_intelligence_test_completed
+20136	When trail making test completed	209811	299376			NA				p20136_When_trail_making_test_completed
+20137	When symbol digit substitution test completed	208250	297297			NA				p20137_When_symbol_digit_substitution_test_completed
+20138	When numeric memory test completed	110991	110991			NA				p20138_When_numeric_memory_test_completed
+20139	Number of letters correctly identified	32078	32078	p20139_Date_first_reported_lt.10._Number_of_letters_correctly_identified__Instance_2		NA			lt.10%	p53_i2
+20139	Number of letters correctly identified	32078	32078	p20139_Date_first_reported_Number_of_letters_correctly_identified__Instance_3		NA				
+20156	Duration to complete numeric path (trail #1)	202016	279309			NA				p20136_When_trail_making_test_completed
+20157	Duration to complete alphanumeric path (trail #2)	187314	256692			NA				p20136_When_trail_making_test_completed
+20159	Number of symbol digit matches made correctly	207588	295588	p20159_Date_first_reported_lt.90._Number_of_symbol_digit_matches_made_correctly_._Instance_0		NA			lt.90%	p20137_When_symbol_digit_substitution_test_completed
+20159	Number of symbol digit matches made correctly	207588	295588	p20159_Date_first_reported_lt.90._Number_of_symbol_digit_matches_made_correctly_._Instance_1		NA			lt.90%	p20137_When_symbol_digit_substitution_test_completed
+20162	Pack years adult smoking as proportion of life span exposed to smoking	153624	180134	p20162_Date_first_reported_gt.1_Pack_years_adult_smoking_as_proportion_of_life_span_exposed_to_smoking_._Instance_0		NA			gt.1	p53_i0
+20162	Pack years adult smoking as proportion of life span exposed to smoking	153624	180134	p20162_Date_first_reported_gt.1_Pack_years_adult_smoking_as_proportion_of_life_span_exposed_to_smoking_._Instance_1		NA			gt.1	p53_i1
+20162	Pack years adult smoking as proportion of life span exposed to smoking	153624	180134	p20162_Date_first_reported_gt.1_Pack_years_adult_smoking_as_proportion_of_life_span_exposed_to_smoking_._Instance_2		NA			gt.1	p53_i2
+20162	Pack years adult smoking as proportion of life span exposed to smoking	153624	180134	p20162_Date_first_reported_Pack_years_adult_smoking_as_proportion_of_life_span_exposed_to_smoking		NA				
+20191	Fluid intelligence score	211757	303517			NA				p20135_When_fluid_intelligence_test_completed
+20195	Number of symbol digit matches attempted	207588	295588	p20195_Date_first_reported_lt.90._Number_of_symbol_digit_matches_attempted_._Instance_0		NA			lt.90%	p20137_When_symbol_digit_substitution_test_completed
+20195	Number of symbol digit matches attempted	207588	295588	p20195_Date_first_reported_lt.90._Number_of_symbol_digit_matches_attempted_._Instance_1		NA			lt.90%	p20137_When_symbol_digit_substitution_test_completed
+20216	T1 structural brain images - DICOM	83003	88222			NA				
+20220	T2 FLAIR structural brain images - DICOM	82019	87199			NA				
+20230	Duration to entering symbol choice	205448	5758272			NA				p20137_When_symbol_digit_substitution_test_completed
+20240	Maximum digits remembered correctly	110991	110991	p20240_Date_first_reported_lt.10._Maximum_digits_remembered_correctly_._Instance_0		NA			lt.10%	p20138_When_numeric_memory_test_completed
+20247	Total errors traversing numeric path (trail #1)	50551	54071			NA				p20136_When_trail_making_test_completed
+20248	Total errors traversing alphanumeric path (trail #2)	85829	96349			NA				p20136_When_trail_making_test_completed
+20270	Home location at assessment - Output Area (2001 census)	500956	612108			NA				
+20273	Home location at assessment - Output Area (2011 census)	500956	612108			NA				
+20400	Date of completing mental health questionnaire	157266	157266			NA				
+20403	Amount of alcohol drunk on a typical drinking day	143564	143564			NA				
+20421	Ever felt worried tense or anxious for most of a month or longer	157235	157235	p20421_Ever_felt_worried._tense._or_anxious_for_most_of_a_month_or_longer_dated		NA				
+20428	Professional informed about anxiety	48728	48728			NA				
+20505	Recent easy annoyance or irritability	157235	157235			NA				
+20506	Recent feelings or nervousness or anxiety	157235	157235			NA				
+20760	Number of puzzles correctly solved	174581	174581	p20760_Date_first_reported_lt.10._Number_of_puzzles_correctly_solved_._Instance_1		NA			lt.10%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a0_Duration_spent_answering_each_puzzle_._Instance_1_._Array_0		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a1_Duration_spent_answering_each_puzzle_._Instance_1_._Array_1		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a2_Duration_spent_answering_each_puzzle_._Instance_1_._Array_2		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a3_Duration_spent_answering_each_puzzle_._Instance_1_._Array_3		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a4_Duration_spent_answering_each_puzzle_._Instance_1_._Array_4		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a5_Duration_spent_answering_each_puzzle_._Instance_1_._Array_5		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a6_Duration_spent_answering_each_puzzle_._Instance_1_._Array_6		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a7_Duration_spent_answering_each_puzzle_._Instance_1_._Array_7		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a8_Duration_spent_answering_each_puzzle_._Instance_1_._Array_8		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a9_Duration_spent_answering_each_puzzle_._Instance_1_._Array_9		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a10_Duration_spent_answering_each_puzzle_._Instance_1_._Array_10		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a11_Duration_spent_answering_each_puzzle_._Instance_1_._Array_11		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a12_Duration_spent_answering_each_puzzle_._Instance_1_._Array_12		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a13_Duration_spent_answering_each_puzzle_._Instance_1_._Array_13		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20763	Duration spent answering each puzzle	174581	2142531	p20763_Date_first_reported_gt.90._a14_Duration_spent_answering_each_puzzle_._Instance_1_._Array_14		NA			gt.90%	p20765_When_matrices_puzzle_completed
+20765	When matrices puzzle completed	176545	176545			NA				p20765_When_matrices_puzzle_completed
+21000	Ethnic background	501271	567750			NA				
+21003	Age when attended assessment centre	502150	625904			NA				
+21022	Age at recruitment	502150	502150	p21022_Age_at_recruitment		NA				
+22189	Townsend deprivation index at recruitment	501524	501524			NA				
+23079	When mood described	213124	312634			NA				
+24310	DRAGEN population level WGS variants	pVCF format [500k release]	Pending	Pending		NA				
+28720	Currently suffering from problems thinking	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=160		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28723	Currently suffering from problems communicating	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=161		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28726	Currently suffering from problems relating to mood	anxiety and emotions	195605	195605		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=162		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28735	Feeling anxious	nervous or on edge over the last 2 weeks	195605	195605		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=163		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28738	Feeling down	depressed or hopeless over the last 2 weeks	195605	195605		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=164		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28739	Difficulty with standing for long periods	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=165		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28740	Difficulty with taking care of household responsibilities	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=166		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28741	Difficulty learning a new task	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=167		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28744	Difficulty with concentrating on doing something for ten minutes	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=168		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28745	Difficulty with walking a long distance	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=169		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28746	Difficulty with washing whole body	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=170		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28747	Difficulty with getting dressed	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=171		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28751	Difficulty with doing your day-to-day work	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=172		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28753	Additional help needed because of health issues identified	173354	2024729			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=173		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+28755	When Health and Well-being Questionnaire completed	195605	195605			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=174		gt.2	p28755_When_Health_and_Well-being_Questionnaire_completed
+29150	Mobility problems today	169536	169536			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=175		gt.2	p29206_When_online_General_health_questionnaire_completed
+29152	Problems doing usual activities	169536	169536			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=176		gt.2	p29206_When_online_General_health_questionnaire_completed
+29197	When online Mental health questionnaire completed	175236	175236			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=177		gt.2	p29197_When_online_Mental_health_questionnaire_completed
+29198	When online Depression questionnaire completed	172910	172910			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=178		gt.2	p29198_When_online_Depression_questionnaire_completed
+29199	When online Mood changes questionnaire completed	171298	171298			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=179		gt.2	p29199_When_online_Mood_changes_questionnaire_completed
+29200	When online Anxiety and panic questionnaire completed	170619	170619			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=180		gt.2	p29200_When_online_Anxiety_and_panic_questionnaire_completed
+29202	When online Alcohol use questionnaire completed	169927	169927			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=181		gt.2	p29202_When_online_Alcohol_use_questionnaire_completed
+29204	When online Harm behaviours questionnaire completed	169755	169755			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=182		gt.2	p29204_When_online_Harm_behaviours_questionnaire_completed
+29206	When online General health questionnaire completed	169536	169536			NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=183		gt.2	p29206_When_online_General_health_questionnaire_completed
+29208	When online Social situation questionnaire completed	169319	169319			NA				
+29209	When online General well-being questionnaire completed	169277	169277			NA				p29209_When_online_General_well-being_questionnaire_completed
+30489	When online sleep behaviour questionnaire completed	185025	185025			NA				p30489_When_online_sleep_behaviour_questionnaire_completed
+30493	When online sleep quality questionnaire completed	182214	182214			NA				p30493_When_online_sleep_quality_questionnaire_completed
+31043	Plasma NeuroFilament Light	1273	2539			NA				
+32069	GraphTyper population level WGS variants	BGEN format [500k release]	490294	490294		NA				
+32120	When online insomnia questionnaire completed	180981	180981			NA				p32120_When_online_insomnia_questionnaire_completed
+32122	When online sleep disturbances questionnaire completed	180201	180201			NA				p32122_When_online_sleep_disturbances_questionnaire_completed
+40000	Date of death	55023	55023			NA				
+40001	Underlying (primary) cause of death: ICD10	54647	54707			NA				
+40002	Contributory (secondary) causes of death: ICD10	37071	88374			NA				
+40007	Age at death	55023	55083			NA				
+41202	Diagnoses - main ICD10	446	809	2	466	94				
+41203	Diagnoses - main ICD9	20	388	43	496	NA				
+41204	Diagnoses - secondary ICD10	399	866	4	810	78				
+41205	Diagnoses - secondary ICD9	8	741	17	385	NA				
+41262	Date of first in-patient diagnosis - main ICD10					NA				
+41263	Date of first in-patient diagnosis - main ICD9					NA				
+41270	Diagnoses - ICD10	446	814	7	015	683				
+41271	Diagnoses - ICD9	20	388	59	423	NA				
+41280	Date of first in-patient diagnosis - ICD10					NA				
+41281	Date of first in-patient diagnosis - ICD9					NA				
+42039	GP prescription records	221954	221954			NA				
+42040	GP clinical event records	229936	229936			NA				
+1e+05	Assessment center					NA				
+100003	Imaging					NA				
+100021	Recruitment					NA				
+100025	Touchscreen (self assessment)					NA				
+100026	Cognitive function					NA				
+100027	Fluid intelligence / reasoning					NA				
+100029	Numeric memory					NA				
+100030	Pairs matching					NA				
+100031	Prospective memory					NA				
+100032	Reaction time					NA				
+100034	Family history					NA				
+100036	Health and medical history					NA				
+100042	General health					NA				
+100048	Pain					NA				
+100050	Lifestyle and environment					NA				
+100051	Alcohol					NA				
+100054	Physical activity					NA				
+100057	Sleep					NA				
+100058	Smoking					NA				
+100059	Psychosocial factors					NA				
+100060	Mental health					NA				
+100062	Sociodemographics					NA				
+100063	Education					NA				
+100064	Employment					NA				
+100065	Ethnicity					NA				
+100066	Household					NA				
+100067	Other sociodemographic factors					NA				
+100071	Verbal interview					NA				
+100072	Early life factors					NA				
+100074	Medical conditions					NA				
+100075	Medications					NA				
+100078	Biological samples					NA				
+100080	Blood assays					NA				
+100089	Online follow up					NA				
+100091	Health-related outcomes					NA				
+100093	Death register					NA				
+100094	Baseline characteristics					NA				
+100314	Genomics					NA				
+120020	Length of time of pain or discomfort	94009	94009			NA				p120128_When_pain_questionnaire_completed
+120101	Pain/discomfort today	167108	167108			NA				p120128_When_pain_questionnaire_completed
+120128	When pain questionnaire completed	167108	167108			NA				p120128_When_pain_questionnaire_completed
+130836	Date F00 first reported (dementia in alzheimer's disease)			p130836_Date_F00_first_reported_dementia_in_alzheimers_disease		NA				
+130838	Date F01 first reported (vascular dementia)			p130838_Date_F01_first_reported_vascular_dementia		NA				
+130840	Date F02 first reported (dementia in other diseases classified elsewhere)			p130840_Date_F02_first_reported_dementia_in_other_diseases_classified_elsewhere		NA				
+130842	Date F03 first reported (unspecified dementia)			p130842_Date_F03_first_reported_unspecified_dementia		NA				
+130844	Date F04 first reported (organic amnesic syndrome	not induced by alcohol and other psychoactive substances)			p130844_Date_F04_first_reported_organic_amnesic_syndrome._not_induced_by_alcohol_and_other_psychoactive_substances	NA				
+130846	Date F05 first reported (delirium	not induced by alcohol and other psychoactive substances)			p130846_Date_F05_first_reported_delirium._not_induced_by_alcohol_and_other_psychoactive_substances	NA				
+130848	Date F06 first reported (other mental disorders due to brain damage and dysfunction and to physical disease)			p130848_Date_F06_first_reported_other_mental_disorders_due_to_brain_damage_and_dysfunction_and_to_physical_disease		NA				
+130850	Date F07 first reported (personality and behavioural disorders due to brain disease	damage and dysfunction)		p130850_Date_F07_first_reported_personality_and_behavioural_disorders_due_to_brain_disease._damage_and_dysfunction		NA				
+130852	Date F09 first reported (unspecified organic or symptomatic mental disorder)			p130852_Date_F09_first_reported_unspecified_organic_or_symptomatic_mental_disorder		NA				
+130854	Date F10 first reported (mental and behavioural disorders due to use of alcohol)			p130854_Date_F10_first_reported_mental_and_behavioural_disorders_due_to_use_of_alcohol		NA				
+130874	Date F20 first reported (schizophrenia)			p130874_Date_F20_first_reported_schizophrenia		NA				
+130876	Date F21 first reported (schizotypal disorder)			p130876_Date_F21_first_reported_schizotypal_disorder		NA				
+130878	Date F22 first reported (persistent delusional disorders)			p130878_Date_F22_first_reported_persistent_delusional_disorders		NA				
+130880	Date F23 first reported (acute and transient psychotic disorders)			p130880_Date_F23_first_reported_acute_and_transient_psychotic_disorders		NA				
+130882	Date F24 first reported (induced delusional disorder)			p130882_Date_F24_first_reported_induced_delusional_disorder		NA				
+130884	Date F25 first reported (schizoaffective disorders)			p130884_Date_F25_first_reported_schizoaffective_disorders		NA				
+130886	Date F28 first reported (other nonorganic psychotic disorders)			p130886_Date_F28_first_reported_other_nonorganic_psychotic_disorders		NA				
+130888	Date F29 first reported (unspecified nonorganic psychosis)			p130888_Date_F29_first_reported_unspecified_nonorganic_psychosis		NA				
+130890	Date F30 first reported (manic episode)			p130890_Date_F30_first_reported_manic_episode		NA				
+130892	Date F31 first reported (bipolar affective disorder)			p130892_Date_F31_first_reported_bipolar_affective_disorder		NA				
+130894	Date F32 first reported (depressive episode)			p130894_Date_F32_first_reported_depressive_episode		NA				
+130896	Date F33 first reported (recurrent depressive disorder)			p130896_Date_F33_first_reported_recurrent_depressive_disorder		NA				
+130898	Date F34 first reported (persistent mood [affective] disorders)			p130898_Date_F34_first_reported_persistent_mood_.affective._disorders		NA				
+130900	Date F38 first reported (other mood [affective] disorders)			p130900_Date_F38_first_reported_other_mood_.affective._disorders		NA				
+130902	Date F39 first reported (unspecified mood [affective] disorder)			p130902_Date_F39_first_reported_unspecified_mood_.affective._disorder		NA				
+130906	Date F41 first reported (other anxiety disorders)			p130906_Date_F41_first_reported_other_anxiety_disorders		NA				
+130908	Date F42 first reported (obsessive-compulsive disorder)			p130908_Date_F42_first_reported_obsessivecompulsive_disorder		NA				
+130916	Date F48 first reported (other neurotic disorders)			p130916_Date_F48_first_reported_other_neurotic_disorders		NA				
+130926	Date F54 first reported (psychological and behavioural factors associated with disorders or diseases classified elsewhere)			p130926_Date_F54_first_reported_psychological_and_behavioural_factors_associated_with_disorders_or_diseases_classified_elsewhere		NA				
+130930	Date F59 first reported (unspecified behavioural syndromes associated with physiological disturbances and physical factors)			p130930_Date_F59_first_reported_unspecified_behavioural_syndromes_associated_with_physiological_disturbances_and_physical_factors		NA				
+130932	Date F60 first reported (specific personality disorders)			p130932_Date_F60_first_reported_specific_personality_disorders		NA				
+130934	Date F61 first reported (mixed and other personality disorders)			p130934_Date_F61_first_reported_mixed_and_other_personality_disorders		NA				
+130936	Date F62 first reported (enduring personality changes	not attributable to brain damage and disease)		p130936_Date_F62_first_reported_enduring_personality_changes._not_attributable_to_brain_damage_and_disease		NA				
+130946	Date F68 first reported (other disorders of adult personality and behaviour)			p130946_Date_F68_first_reported_other_disorders_of_adult_personality_and_behaviour		NA				
+130948	Date F69 first reported (unspecified disorder of adult personality and behaviour)			p130948_Date_F69_first_reported_unspecified_disorder_of_adult_personality_and_behaviour		NA				
+130990	Date F99 first reported (mental disorder	not otherwise specified)		p130990_Date_F99_first_reported_mental_disorder._not_otherwise_specified		NA				
+131012	Date G10 first reported (huntington's disease)			p131012_Date_G10_first_reported_huntingtons_disease		NA				
+131014	Date G11 first reported (hereditary ataxia)			p131014_Date_G11_first_reported_hereditary_ataxia		NA				
+131022	Date G20 first reported (parkinson's disease)			p131022_Date_G20_first_reported_parkinsons_disease		NA				
+131024	Date G21 first reported (secondary parkinsonism)			p131024_Date_G21_first_reported_secondary_parkinsonism		NA				
+131026	Date G22 first reported (parkinsonism in diseases classified elsewhere)			p131026_Date_G22_first_reported_parkinsonism_in_diseases_classified_elsewhere		NA				
+131028	Date G23 first reported (other degenerative diseases of basal ganglia)			p131028_Date_G23_first_reported_other_degenerative_diseases_of_basal_ganglia		NA				
+131030	Date G24 first reported (dystonia)			p131030_Date_G24_first_reported_dystonia		NA				
+131032	Date G25 first reported (other extrapyramidal and movement disorders)			p131032_Date_G25_first_reported_other_extrapyramidal_and_movement_disorders		NA				
+131034	Date G26 first reported (extrapyramidal and movement disorders in diseases classified elsewhere)					NA				
+131036	Date G30 first reported (alzheimer's disease)			p131036_Date_G30_first_reported_alzheimers_disease		NA				
+131038	Date G31 first reported (other degenerative diseases of nervous system	not elsewhere classified)		p131038_Date_G31_first_reported_other_degenerative_diseases_of_nervous_system._not_elsewhere_classified		NA				
+131040	Date G32 first reported (other degenerative disorders of nervous system in diseases classified elsewhere)			p131040_Date_G32_first_reported_other_degenerative_disorders_of_nervous_system_in_diseases_classified_elsewhere		NA				
+131060	Date G47 first reported (sleep disorders)			p131060_Date_G47_first_reported_sleep_disorders		NA				
+131120	Date G96 first reported (other disorders of central nervous system)			p131120_Date_G96_first_reported_other_disorders_of_central_nervous_system		NA				
+131124	Date G98 first reported (other disorders of nervous system	not elsewhere classified)		p131124_Date_G98_first_reported_other_disorders_of_nervous_system._not_elsewhere_classified		NA				
+NA				p130762_Date_E46_first_reported_unspecified_proteinenergy_malnutrition		NA				
+NA				p130920_Date_F51_first_reported_nonorganic_sleep_disorders		NA				
+NA				p131056_Date_G45_first_reported_transient_cerebral_ischaemic_attacks_and_related_syndromes		NA				
+NA				p131360_Date_I60_first_reported_subarachnoid_haemorrhage		NA				
+NA				p131366_Date_I63_first_reported_cerebral_infarction		NA				
+NA				p131518_Date_J69_first_reported_pneumonitis_due_to_solids_and_liquids		NA				
+NA				p131964_Date_M81_first_reported_osteoporosis_without_pathological_fracture		NA				
+NA				p42030_Date_of_all_cause_parkinsonism_report		NA				
+NA				p42032_Date_of_parkinsons_disease_report		NA				
+NA				p3005_Date_first_reported_Fracture_resulting_from_simple_fall_._Instance_0		NA				
+NA				p3005_Date_first_reported_Fracture_resulting_from_simple_fall_._Instance_1		NA				
+NA				p3005_Date_first_reported_Fracture_resulting_from_simple_fall_._Instance_2		NA				
+NA				p3005_Date_first_reported_Fracture_resulting_from_simple_fall		NA				
+20002				fracture_jaw		NA			1698	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				fracture_clavicle_or_collar_bone		NA			1703	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				fracture_shoulder_or_scapula		NA			1704	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				chronic_or_degenerative_neurological_problem		NA			1284	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				depression		NA			1312	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				anxiety_or_panic_attacks		NA			1313	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				stroke		NA			1098	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				brain_haemorrhage		NA			1554	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				multiple_sclerosis		NA			1287	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				other_neurological_problem		NA			1489	Interpolated Age of participant when non-cancer illness first diagnosed
+20002				osteoporosis		NA			1348	Interpolated Age of participant when non-cancer illness first diagnosed
+28735				Feeling_anxious._nervous_or_on_edge_over_the_last_2_weeks		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28738				Feeling_down._depressed_or_hopeless_over_the_last_2_weeks		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28739				Difficulty_with_standing_for_long_periods		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28740				Difficulty_with_taking_care_of_household_responsibilities		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28741				Difficulty_learning_a_new_task		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28744				Difficulty_with_concentrating_on_doing_something_for_ten_minutes		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28745				Difficulty_with_walking_a_long_distance		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28746				Difficulty_with_washing_whole_body		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+28751				Difficulty_with_doing_your_day.to.day_work		NA				p28755_When_Health_and_Well-being_Questionnaire_completed
+29150				Mobility_problems_today		NA				p29206_When_online_General_health_questionnaire_completed
+29152				Problems_doing_usual_activities		NA				p29206_When_online_General_health_questionnaire_completed
+40001				Date_Death_caused_by_Malignant_neoplasm_Cardia		NA				p40000_i0_Date_of_death_._Instance_0
+40001				Date_Death_caused_by_Malignant_neoplasm_Caecum		NA				p40000_i0_Date_of_death_._Instance_1
+40001				Date_Death_caused_by_Malignant_neoplasm_Colon_unspecified		NA				p40000_i0_Date_of_death_._Instance_2
+40001				Date_Death_caused_by_Malignant_neoplasm_of_rectosigmoid_junction		NA				p40000_i0_Date_of_death_._Instance_3
+40001				Date_Death_caused_by_Malignant_neoplasm_Pancreas_unspecified		NA				p40000_i0_Date_of_death_._Instance_4
+40001				Date_Death_caused_by_Malignant_neoplasm_Intestinal_tractpart_unspecified		NA				p40000_i0_Date_of_death_._Instance_5
+40001				Date_Death_caused_by_Malignant_neoplasm_Ill.defined_sites_within_the_digestive_system		NA				p40000_i0_Date_of_death_._Instance_6
+40001				Date_Death_caused_by_Malignant_neoplasm_Bronchus_or_lung_unspecified		NA				p40000_i0_Date_of_death_._Instance_7
+40001				Date_Death_caused_by_Malignant_neoplasm_Malignant_melanoma_of_skin_unspecified		NA				p40000_i0_Date_of_death_._Instance_8
+40001				Date_Death_caused_by_Malignant_neoplasm_Malignant_neoplasm_of_skin_unspecified		NA				p40000_i0_Date_of_death_._Instance_9
+40001				Date_Death_caused_by_Malignant_neoplasm_of_ovary		NA				p40000_i0_Date_of_death_._Instance_10
+40001				Date_Death_caused_by_Malignant_neoplasm_of_prostate		NA				p40000_i0_Date_of_death_._Instance_11
+40001				Date_Death_caused_by_Malignant_neoplasm_of_ureter		NA				p40000_i0_Date_of_death_._Instance_12
+40001				Date_Death_caused_by_Malignant_neoplasm_Bladder_unspecified		NA				p40000_i0_Date_of_death_._Instance_13
+40001				Date_Death_caused_by_Malignant_neoplasm_Brain_unspecified		NA				p40000_i0_Date_of_death_._Instance_14
+40001				Date_Death_caused_by_Malignant_neoplasmprimary_site_unknownso_stated		NA				p40000_i0_Date_of_death_._Instance_15
+40001				Date_Death_caused_by_Malignant_neoplasmprimary_site_unspecified		NA				p40000_i0_Date_of_death_._Instance_16
+40001				Date_Death_caused_by_Malignant_neoplasm_without_specification_of_site		NA				p40000_i0_Date_of_death_._Instance_17
+40001				Date_Death_caused_by_Malignant_neoplasms_of_independent_primary_multiple_sites		NA				p40000_i0_Date_of_death_._Instance_18
+40001				Date_Death_caused_by_Haemangioma_any_site		NA				p40000_i0_Date_of_death_._Instance_19
+40001				Date_Death_caused_by_Benign_neoplasm_Meninges_unspecified		NA				p40000_i0_Date_of_death_._Instance_20
+40001				Date_Death_caused_by_Volume_depletion		NA				p40000_i0_Date_of_death_._Instance_21
+40001				Date_Death_caused_by_Vascular_dementia_unspecified		NA				p40000_i0_Date_of_death_._Instance_22
+40001				Date_Death_caused_by_Unspecified_dementia		NA				p40000_i0_Date_of_death_._Instance_23
+40001				Date_Death_caused_by_Huntington_disease		NA				p40000_i0_Date_of_death_._Instance_24
+40001				Date_Death_caused_by_Motor_neuron_disease		NA				p40000_i0_Date_of_death_._Instance_25
+40001				Date_Death_caused_by_Parkinson_disease		NA				p40000_i0_Date_of_death_._Instance_26
+40001				Date_Death_caused_by_Alzheimer_disease_with_late_onset		NA				p40000_i0_Date_of_death_._Instance_27
+40001				Date_Death_caused_by_Alzheimer_disease_unspecified		NA				p40000_i0_Date_of_death_._Instance_28
+40001				Date_Death_caused_by_Other_specified_degenerative_diseases_of_nervous_system		NA				p40000_i0_Date_of_death_._Instance_29
+40001				Date_Death_caused_by_Acute_myocardial_infarctionunspecified		NA				p40000_i0_Date_of_death_._Instance_30
+40001				Date_Death_caused_by_Chronic_ischaemic_heart_disease_unspecified		NA				p40000_i0_Date_of_death_._Instance_31
+40001				Date_Death_caused_by_Pulmonary_embolism_without_mention_of_acute_cor_pulmonale		NA				p40000_i0_Date_of_death_._Instance_32
+40001				Date_Death_caused_by_Heart_failure_unspecified		NA				p40000_i0_Date_of_death_._Instance_33
+40001				Date_Death_caused_by_Cardiomegaly		NA				p40000_i0_Date_of_death_._Instance_34
+40001				Date_Death_caused_by_Subarachnoid_haemorrhage_unspecified		NA				p40000_i0_Date_of_death_._Instance_35
+40001				Date_Death_caused_by_Strokenot_specified_as_haemorrhage_or_infarction		NA				p40000_i0_Date_of_death_._Instance_36
+40001				Date_Death_caused_by_Cerebrovascular_disease_unspecified		NA				p40000_i0_Date_of_death_._Instance_37
+40001				Date_Death_caused_by_Peripheral_vascular_disease_unspecified		NA				p40000_i0_Date_of_death_._Instance_38
+40001				Date_Death_caused_by_Bronchopneumonia_unspecified		NA				p40000_i0_Date_of_death_._Instance_39
+40001				Date_Death_caused_by_Pneumonia_unspecified		NA				p40000_i0_Date_of_death_._Instance_40
+40001				Date_Death_caused_by_Chronic_obstructive_pulmonary_disease_with_acute_lower_respiratory_infection		NA				p40000_i0_Date_of_death_._Instance_41
+40001				Date_Death_caused_by_Bronchiectasis		NA				p40000_i0_Date_of_death_._Instance_42
+40001				Date_Death_caused_by_Other_and_unspecified_intestinal_obstruction		NA				p40000_i0_Date_of_death_._Instance_43
+40001				Date_Death_caused_by_Acute_peritonitis		NA				p40000_i0_Date_of_death_._Instance_44
+40001				Date_Death_caused_by_Other_and_unspecified_cirrhosis_of_liver		NA				p40000_i0_Date_of_death_._Instance_45
+40001				Date_Death_caused_by_Systemic_involvement_of_connective_tissue_unspecified		NA				p40000_i0_Date_of_death_._Instance_46
+40001				Date_Death_caused_by_Other_ill.defined_and_unspecified_causes_of_mortality		NA				p40000_i0_Date_of_death_._Instance_47
+40001				Date_Death_caused_by_Emergency_use_of_U071		NA				p40000_i0_Date_of_death_._Instance_48
+40001				Date_Death_caused_by_Other_specified_events_undetermined_intent		NA				p40000_i0_Date_of_death_._Instance_49
+100060				Date_first_reported__Mood_swings		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100060		1920	direct:2009
+100060				Date_first_reported__Miserableness		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100061		1930	direct:2009
+100060				Date_first_reported__Irritability		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100062		1940	direct:2009
+100060				Date_first_reported__Sensitivity_._hurt_feelings		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100063		1950	direct:2009
+100060				Date_first_reported__Fedup_feelings		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100064		1960	direct:2009
+100060				Date_first_reported__Nervous_feelings		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100065		1970	direct:2009
+100060				Date_first_reported__Worrier_._anxious_feelings		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100066		1980	direct:2009
+100060				Date_first_reported__Tense_._highly_strung		NA	https://biobank.ctsu.ox.ac.uk/crystal/label.cgi?id=100067		1990	direct:2009
+6142				unemployed_due_to_sickness_i0		NA			4	p53_i0
+6142				unemployed_due_to_sickness_i1		NA			4	p53_i1
+6142				unemployed_due_to_sickness_i2		NA			4	p53_i2
+6142				unemployed_due_to_sickness_i3		NA			4	p53_i3
+20107				dad_had_severe_depression_i0		NA			17434	p53_i0
+20107				dad_had_severe_depression_i1		NA			17434	p53_i1
+20107				dad_had_severe_depression_i2		NA			17434	p53_i2
+20107				dad_had_severe_depression_i3		NA			17434	p53_i3
+20110				mum_had_severe_depression_i0		NA			17434	p53_i0
+20110				mum_had_severe_depression_i1		NA			17434	p53_i1
+20110				mum_had_severe_depression_i2		NA			17434	p53_i2
+20110				mum_had_severe_depression_i3		NA			17434	p53_i3
+20107				dad_had_parkinsons_disease_i0		NA			11461	p53_i0
+20107				dad_had_parkinsons_disease_i1		NA			11461	p53_i1
+20107				dad_had_parkinsons_disease_i2		NA			11461	p53_i2
+20107				dad_had_parkinsons_disease_i3		NA			11461	p53_i3
+20110				mum_had_parkinsons_disease_i0		NA			11461	p53_i0
+20110				mum_had_parkinsons_disease_i1		NA			11461	p53_i1
+20110				mum_had_parkinsons_disease_i2		NA			11461	p53_i2
+20110				mum_had_parkinsons_disease_i3		NA			11461	p53_i3
+20107				dad_had_alzheimers_i0		NA			33764	p53_i0
+20107				dad_had_alzheimers_i1		NA			33764	p53_i1
+20107				dad_had_alzheimers_i2		NA			33764	p53_i2
+20107				dad_had_alzheimers_i3		NA			33764	p53_i3
+20110				mum_had_alzheimers_i0		NA			33764	p53_i0
+20110				mum_had_alzheimers_i1		NA			33764	p53_i1
+20110				mum_had_alzheimers_i2		NA			33764	p53_i2
+20110				mum_had_alzheimers_i3		NA			33764	p53_i3
+20111				sibling_has_severe_depression_i0		NA			37331	p53_i0
+20111				sibling_has_parkinsons_disease_i0		NA			3696	p53_i1
+20111				sibling_has_alheimers_i0		NA			5124	p53_i2
+20111				sibling_has_severe_depression_i1		NA			37331	p53_i3
+20111				sibling_has_parkinsons_disease_i1		NA			3696	p53_i0
+20111				sibling_has_alheimers_i1		NA			5124	p53_i1
+20111				sibling_has_severe_depression_i2		NA			37331	p53_i2
+20111				sibling_has_parkinsons_disease_i2		NA			3696	p53_i3
+20111				sibling_has_alheimers_i2		NA			5124	p53_i0
+20111				sibling_has_severe_depression_i3		NA			37331	p53_i1
+20111				sibling_has_parkinsons_disease_i3		NA			3696	p53_i2
+20111				sibling_has_alheimers_i3		NA			5124	p53_i3
+120019	Troubled by pain or discomfort present for more than 3 months	167108	167108	p120019_Troubled_by_pain_or_discomfort_present_for_more_than_3_months_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=154	p120019_Troubled_by_pain_or_discomfort_present_for_more_than_3_months	1	p120128_When_pain_questionnaire_completed
+120038	Pain or tenderness during the past week	167108	167108	p120038_Pain_or_tenderness_during_the_past_week_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=155	p120038_Pain_or_tenderness_during_the_past_week	1	p120128_When_pain_questionnaire_completed
+20414	Frequency of drinking alcohol	157235	157235	p20414_Frequency_of_drinking_alcohol_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=156	p20414_Frequency_of_drinking_alcohol	1	p20400_Date_of_completing_mental_health_questionnaire
+20416	Frequency of consuming six or more units of alcohol	143564	143564	p20416_Frequency_of_consuming_six_or_more_units_of_alcohol_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=157	p20416_Frequency_of_consuming_six_or_more_units_of_alcohol	1	p20400_Date_of_completing_mental_health_questionnaire
+20437	Thoughts of death during worst depression	88960	88960	p20437_Thoughts_of_death_during_worst_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=158	p20437_Thoughts_of_death_during_worst_depression	1	p20400_Date_of_completing_mental_health_questionnaire
+20446	Ever had prolonged feelings of sadness or depression	157235	157235	p20446_Ever_had_prolonged_feelings_of_sadness_or_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=159	p20446_Ever_had_prolonged_feelings_of_sadness_or_depression	1	p20400_Date_of_completing_mental_health_questionnaire
+20448	Professional informed about depression	88960	88960	p20448_Professional_informed_about_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=160	p20448_Professional_informed_about_depression	1	p20400_Date_of_completing_mental_health_questionnaire
+20458	General happiness	157235	157235	p20458_General_happiness_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=161	p20458_General_happiness	1	p20400_Date_of_completing_mental_health_questionnaire
+20459	General happiness with own health	157235	157235	p20459_General_happiness_with_own_health_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=162	p20459_General_happiness_with_own_health	1	p20400_Date_of_completing_mental_health_questionnaire
+20460	Belief that own life is meaningful	157235	157235	p20460_Belief_that_own_life_is_meaningful_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=163	p20460_Belief_that_own_life_is_meaningful	1	p20400_Date_of_completing_mental_health_questionnaire
+20479	Ever thought that life not worth living	157235	157235	p20479_Ever_thought_that_life_not_worth_living_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=164	p20479_Ever_thought_that_life_not_worth_living	1	p20400_Date_of_completing_mental_health_questionnaire
+20480	Ever self-harmed	157235	157235	p20480_Ever_selfharmed_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=165	p20480_Ever_selfharmed	1	p20400_Date_of_completing_mental_health_questionnaire
+20481	Self-harmed in past year	6854	6854	p20481_Selfharmed_in_past_year_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=166	p20481_Selfharmed_in_past_year	1	p20400_Date_of_completing_mental_health_questionnaire
+20482	Number of times self-harmed	6854	6854	p20482_Number_of_times_selfharmed_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=167	p20482_Number_of_times_selfharmed	1	p20400_Date_of_completing_mental_health_questionnaire
+20483	Ever attempted suicide	6854	6854	p20483_Ever_attempted_suicide_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=168	p20483_Ever_attempted_suicide	1	p20400_Date_of_completing_mental_health_questionnaire
+20484	Attempted suicide in past year	3553	3553	p20484_Attempted_suicide_in_past_year_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=169	p20484_Attempted_suicide_in_past_year	1	p20400_Date_of_completing_mental_health_questionnaire
+20485	Ever contemplated self-harm	157235	157235	p20485_Ever_contemplated_selfharm_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=170	p20485_Ever_contemplated_selfharm	1	p20400_Date_of_completing_mental_health_questionnaire
+20486	Contemplated self-harm in past year	23153	23153	p20486_Contemplated_selfharm_in_past_year_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=171	p20486_Contemplated_selfharm_in_past_year	1	p20400_Date_of_completing_mental_health_questionnaire
+20499	Ever sought or received professional help for mental distress	157235	157235	p20499_Ever_sought_or_received_professional_help_for_mental_distress_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=172	p20499_Ever_sought_or_received_professional_help_for_mental_distress	1	p20400_Date_of_completing_mental_health_questionnaire
+20500	Ever suffered mental distress preventing usual activities	157235	157235	p20500_Ever_suffered_mental_distress_preventing_usual_activities_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=173	p20500_Ever_suffered_mental_distress_preventing_usual_activities	1	p20400_Date_of_completing_mental_health_questionnaire
+20510	Recent feelings of depression	157235	157235	p20510_Recent_feelings_of_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=174	p20510_Recent_feelings_of_depression	1	p20400_Date_of_completing_mental_health_questionnaire
+20513	Recent thoughts of suicide or self-harm	157235	157235	p20513_Recent_thoughts_of_suicide_or_selfharm_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=175	p20513_Recent_thoughts_of_suicide_or_selfharm	1	p20400_Date_of_completing_mental_health_questionnaire
+20544	Mental health problems ever diagnosed by a professional	50046	74791	p20544_Mental_health_problems_ever_diagnosed_by_a_professional_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=176	p20544_Mental_health_problems_ever_diagnosed_by_a_professional	1	p20400_Date_of_completing_mental_health_questionnaire
+28687	Currently suffering from difficulty sleeping	195605	195605	p28687_Currently_suffering_from_difficulty_sleeping_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=177	p28687_Currently_suffering_from_difficulty_sleeping	1	p28755_When_Health_and_Well-being_Questionnaire_completed
+28693	Currently suffering from unrestful sleep	195605	195605	p28693_Currently_suffering_from_unrestful_sleep_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=178	p28693_Currently_suffering_from_unrestful_sleep	1	p28755_When_Health_and_Well-being_Questionnaire_completed
+28729	Currently suffering from weakness of muscles or difficulty moving arms and legs	195605	195605	p28729_Currently_suffering_from_weakness_of_muscles_or_difficulty_moving_arms_and_legs_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=179	p28729_Currently_suffering_from_weakness_of_muscles_or_difficulty_moving_arms_and_legs	1	p28755_When_Health_and_Well-being_Questionnaire_completed
+28737	Little interest or pleasure in doing things over the last 2 weeks	195605	195605	p28737_Little_interest_or_pleasure_in_doing_things_over_the_last_2_weeks_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=180	p28737_Little_interest_or_pleasure_in_doing_things_over_the_last_2_weeks	1	p28755_When_Health_and_Well-being_Questionnaire_completed
+28743	Difficulty with being emotionally affected by health problems	195605	195605	p28743_Difficulty_with_being_emotionally_affected_by_health_problems_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=181	p28743_Difficulty_with_being_emotionally_affected_by_health_problems	1	p28755_When_Health_and_Well-being_Questionnaire_completed
+29000	Mental health conditions ever diagnosed by a professional	175236	539739	p29000_Mental_health_conditions_ever_diagnosed_by_a_professional_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=182	p29000_Mental_health_conditions_ever_diagnosed_by_a_professional	1	p29197_When_online_Mental_health_questionnaire_completed
+29001	Mental health conditions experienced by first degree blood relatives	175236	203002	p29001_Mental_health_conditions_experienced_by_first_degree_blood_relatives_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=183	p29001_Mental_health_conditions_experienced_by_first_degree_blood_relatives	1	p29197_When_online_Mental_health_questionnaire_completed
+29003	Recent feelings of depression	172910	172910	p29003_Recent_feelings_of_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=184	p29003_Recent_feelings_of_depression	1	p29198_When_online_Depression_questionnaire_completed
+29010	Recent thoughts of suicide or self-harm	172910	172910	p29010_Recent_thoughts_of_suicide_or_selfharm_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=185	p29010_Recent_thoughts_of_suicide_or_selfharm	1	p29198_When_online_Depression_questionnaire_completed
+29011	Ever had prolonged feelings of sadness or depression	172909	172909	p29011_Ever_had_prolonged_feelings_of_sadness_or_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=186	p29011_Ever_had_prolonged_feelings_of_sadness_or_depression	1	p29198_When_online_Depression_questionnaire_completed
+29029	Thoughts of death during worst depression	79885	79885	p29029_Thoughts_of_death_during_worst_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=187	p29029_Thoughts_of_death_during_worst_depression	1	p29198_When_online_Depression_questionnaire_completed
+29037	Professional informed about depression	79885	79885	p29037_Professional_informed_about_depression_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=188	p29037_Professional_informed_about_depression	1	p29198_When_online_Depression_questionnaire_completed
+29049	Ever had period of mania / excitability	171298	171298	p29049_Ever_had_period_of_mania_._excitability_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=189	p29049_Ever_had_period_of_mania_._excitability	1	p29199_When_online_Mood_changes_questionnaire_completed
+29050	Ever had period extreme irritability	171298	171298	p29050_Ever_had_period_extreme_irritability_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=190	p29050_Ever_had_period_extreme_irritability	1	p29199_When_online_Mood_changes_questionnaire_completed
+29055	Lifetime number of manic or irritable periods	8056	8056	p29055_Lifetime_number_of_manic_or_irritable_periods_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=191	p29055_Lifetime_number_of_manic_or_irritable_periods	1	p29199_When_online_Mood_changes_questionnaire_completed
+29058	Recent feelings or nervousness or anxiety	170619	170619	p29058_Recent_feelings_or_nervousness_or_anxiety_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=192	p29058_Recent_feelings_or_nervousness_or_anxiety	1	p29200_When_online_Anxiety_and_panic_questionnaire_completed
+29063	Recent easy annoyance or irritability	170619	170619	p29063_Recent_easy_annoyance_or_irritability_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=193	p29063_Recent_easy_annoyance_or_irritability	1	p29200_When_online_Anxiety_and_panic_questionnaire_completed
+29091	Frequency of drinking alcohol	169927	169927	p29091_Frequency_of_drinking_alcohol_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=194	p29091_Frequency_of_drinking_alcohol	1	p29202_When_online_Alcohol_use_questionnaire_completed
+29092	Amount of alcohol drunk on a typical drinking day	152146	152146	p29092_Amount_of_alcohol_drunk_on_a_typical_drinking_day_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=195	p29092_Amount_of_alcohol_drunk_on_a_typical_drinking_day	1	p29202_When_online_Alcohol_use_questionnaire_completed
+29093	Frequency of consuming six or more units of alcohol	152146	152146	p29093_Frequency_of_consuming_six_or_more_units_of_alcohol_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=196	p29093_Frequency_of_consuming_six_or_more_units_of_alcohol	1	p29202_When_online_Alcohol_use_questionnaire_completed
+29108	Ever thought that life not worth living	169755	169755	p29108_Ever_thought_that_life_not_worth_living_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=197	p29108_Ever_thought_that_life_not_worth_living	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29109	Ever contemplated self-harm	169755	169755	p29109_Ever_contemplated_selfharm_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=198	p29109_Ever_contemplated_selfharm	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29110	Contemplated self-harm in past year	21323	21323	p29110_Contemplated_selfharm_in_past_year_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=199	p29110_Contemplated_selfharm_in_past_year	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29111	Ever self-harmed	169755	169755	p29111_Ever_selfharmed_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=200	p29111_Ever_selfharmed	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29114	Self-harmed in past year	7799	7799	p29114_Selfharmed_in_past_year_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=201	p29114_Selfharmed_in_past_year	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29116	Ever attempted suicide	7799	7799	p29116_Ever_attempted_suicide_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=202	p29116_Ever_attempted_suicide	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29117	Attempted suicide in past year	4107	4107	p29117_Attempted_suicide_in_past_year_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=203	p29117_Attempted_suicide_in_past_year	1	p29204_When_online_Harm_behaviours_questionnaire_completed
+29151	Self-care problems today	169536	169536	p29151_Selfcare_problems_today_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=204	p29151_Selfcare_problems_today	1	p29206_When_online_General_health_questionnaire_completed
+29153	Pain/discomfort today	169536	169536	p29153_Pain.discomfort_today_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=205	p29153_Pain.discomfort_today	1	p29206_When_online_General_health_questionnaire_completed
+29154	Anxiety/depression today	169536	169536	p29154_Anxiety.depression_today_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=206	p29154_Anxiety.depression_today	1	p29206_When_online_General_health_questionnaire_completed
+29155	Scale to indicate how health is today	169536	169536	p29155_Scale_to_indicate_how_health_is_today_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=207	p29155_Scale_to_indicate_how_health_is_today	1	p29206_When_online_General_health_questionnaire_completed
+29169	Current situation	169319	216305	p29169_Current_situation_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=208	p29169_Current_situation	1	p20400_Date_of_completing_mental_health_questionnaire
+29181	General happiness	169277	169277	p29181_General_happiness_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=209	p29181_General_happiness	gt:5	p29209_When_online_General_well-being_questionnaire_completed
+29182	Belief that own life is meaningful	169277	169277	p29182_Belief_that_own_life_is_meaningful_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=210	p29182_Belief_that_own_life_is_meaningful	1	p29209_When_online_General_well-being_questionnaire_completed
+30426	Tiredness after waking	185025	185025	p30426_Tiredness_after_waking_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=211	p30426_Tiredness_after_waking	1	p30489_When_online_sleep_behaviour_questionnaire_completed
+30467	Overall quality of sleep in past month	182214	182214	p30467_Overall_quality_of_sleep_in_past_month_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=212	p30467_Overall_quality_of_sleep_in_past_month	1	p30493_When_online_sleep_quality_questionnaire_completed
+30470	Sleep quality on a typical night in 2019	182214	182214	p30470_Sleep_quality_on_a_typical_night_in_2019_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=213	p30470_Sleep_quality_on_a_typical_night_in_2019	1	p30493_When_online_sleep_quality_questionnaire_completed
+30538	Number of nights a week of problematic sleep in the past month	180981	180981	p30538_Number_of_nights_a_week_of_problematic_sleep_in_the_past_month_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=214	p30538_Number_of_nights_a_week_of_problematic_sleep_in_the_past_month	1	p32120_When_online_insomnia_questionnaire_completed
+30539	Sleep quality in the past month	180981	180981	p30539_Sleep_quality_in_the_past_month_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=215	p30539_Sleep_quality_in_the_past_month	1	p32120_When_online_insomnia_questionnaire_completed
+30543	Length of time had a problem with sleep	180981	180981	p30543_Length_of_time_had_a_problem_with_sleep_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=216	p30543_Length_of_time_had_a_problem_with_sleep	1	p32120_When_online_insomnia_questionnaire_completed
+30567	Feelings of tiredness after sleep	180201	180201	p30567_Feelings_of_tiredness_after_sleep_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=217	p30567_Feelings_of_tiredness_after_sleep	1	p32122_When_online_sleep_disturbances_questionnaire_completed
+30568	Feelings of tiredness during waking time	180201	180201	p30568_Feelings_of_tiredness_during_waking_time_dated		NA	https://biobank.ctsu.ox.ac.uk/ukb/label.cgi?id=218	p30568_Feelings_of_tiredness_during_waking_time	1	p32122_When_online_sleep_disturbances_questionnaire_completed
+20197	Number of word pairs correctly associated	74695	83839	p20197_Date_first_reported_lt.10._Number_of_word_pairs_correctly_associated__Instance_2		NA			lt.10%	p53_2
+21004	Number of puzzles correct	42529	46489	p21004_Date_first_reported_lt.10._Number_of_puzzles_correct__Instance_2		NA			lt.10%	p53_2
+22032	IPAQ activity group	394296	466874	p22032_Date_first_reported_gt.1_IPAQ_activity_group_._Instance_0		NA			gt.1	p53_0
+22032	IPAQ activity group	394296	466874	p22032_Date_first_reported_gt.1_IPAQ_activity_group_._Instance_1		NA			gt.1	p53_1
+22032	IPAQ activity group	394296	466874	p22032_Date_first_reported_gt.1_IPAQ_activity_group_._Instance_2		NA			gt.1	p53_2
+22036	At or above moderate/vigorous/walking recommendation	394296	466874	p22036_Date_first_reported_1_At_or_above_moderate.vigorous.walking_recommendation_._Instance_0		NA			1	p53_0
+22036	At or above moderate/vigorous/walking recommendation	394296	466874	p22036_Date_first_reported_1_At_or_above_moderate.vigorous.walking_recommendation_._Instance_1		NA			1	p53_1
+22036	At or above moderate/vigorous/walking recommendation	394296	466874	p22036_Date_first_reported_1_At_or_above_moderate.vigorous.walking_recommendation_._Instance_2		NA			1	p53_2
+22040	Summed MET minutes per week for all activity	394296	466874	p22040_Date_first_reported_gt.90._Summed_MET_minutes_per_week_for_all_activity_._Instance_0		NA			gt.90%	p53_0
+22040	Summed MET minutes per week for all activity	394296	466874	p22040_Date_first_reported_gt.90._Summed_MET_minutes_per_week_for_all_activity_._Instance_1		NA			gt.90%	p53_1
+22040	Summed MET minutes per week for all activity	394296	466874	p22040_Date_first_reported_gt.90._Summed_MET_minutes_per_week_for_all_activity_._Instance_2		NA			gt.90%	p53_2
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a0_Very_nervous_mood_over_last_week_._Instance_0_._Array_0		NA			gt.2	p53_0
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a1_Very_nervous_mood_over_last_week_._Instance_0_._Array_1		NA			gt.2	p53_0
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a2_Very_nervous_mood_over_last_week_._Instance_0_._Array_2		NA			gt.2	p53_0
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a3_Very_nervous_mood_over_last_week_._Instance_0_._Array_3		NA			gt.2	p53_0
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a0_Very_nervous_mood_over_last_week_._Instance_1_._Array_0		NA			gt.2	p53_1
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a1_Very_nervous_mood_over_last_week_._Instance_1_._Array_1		NA			gt.2	p53_1
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a2_Very_nervous_mood_over_last_week_._Instance_1_._Array_2		NA			gt.2	p53_1
+23045	Very nervous mood over last week	211849	304035	p23045_Date_first_reported_gt.2_a3_Very_nervous_mood_over_last_week_._Instance_1_._Array_3		NA			gt.2	p53_1
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a0_Down_in_dumps_over_last_week_._Instance_0_._Array_0		NA			gt.2	p53_0
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a1_Down_in_dumps_over_last_week_._Instance_0_._Array_1		NA			gt.2	p53_0
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a2_Down_in_dumps_over_last_week_._Instance_0_._Array_2		NA			gt.2	p53_0
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a3_Down_in_dumps_over_last_week_._Instance_0_._Array_3		NA			gt.2	p53_0
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a0_Down_in_dumps_over_last_week_._Instance_1_._Array_0		NA			gt.2	p53_1
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a1_Down_in_dumps_over_last_week_._Instance_1_._Array_1		NA			gt.2	p53_1
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a2_Down_in_dumps_over_last_week_._Instance_1_._Array_2		NA			gt.2	p53_1
+23046	Down in dumps over last week	211849	304035	p23046_Date_first_reported_gt.2_a3_Down_in_dumps_over_last_week_._Instance_1_._Array_3		NA			gt.2	p53_1
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a0_Downhearted_and_depressed_over_last_week_._Instance_0_._Array_0		NA			gt.2	p53_0
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a1_Downhearted_and_depressed_over_last_week_._Instance_0_._Array_1		NA			gt.2	p53_0
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a2_Downhearted_and_depressed_over_last_week_._Instance_0_._Array_2		NA			gt.2	p53_0
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a3_Downhearted_and_depressed_over_last_week_._Instance_0_._Array_3		NA			gt.2	p53_0
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a0_Downhearted_and_depressed_over_last_week_._Instance_1_._Array_0		NA			gt.2	p53_1
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a1_Downhearted_and_depressed_over_last_week_._Instance_1_._Array_1		NA			gt.2	p53_1
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a2_Downhearted_and_depressed_over_last_week_._Instance_1_._Array_2		NA			gt.2	p53_1
+23072	Downhearted and depressed over last week	211849	304035	p23072_Date_first_reported_gt.2_a3_Downhearted_and_depressed_over_last_week_._Instance_1_._Array_3		NA			gt.2	p53_1
+23323	Number of symbol digit matches attempted	74074	83095	p23323_Date_first_reported_lt.10._Number_of_symbol_digit_matches_attempted__Instance_2		NA			lt.10%	p53_2
+23324	Number of symbol digit matches made correctly	74074	83095	p23324_Date_first_reported_lt.10._Number_of_symbol_digit_matches_made_correctly__Instance_2		NA			lt.10%	p53_2
+26302	Specific cognitive ability (AS)	34897	38835	p26302_Date_first_reported_lt.10._Specific_cognitive_ability_AS__Instance_2		NA			lt.10%	p53_2
+31040	Plasma Amyloid beta-40	1273	2535	p31040_Date_first_reported_gt.90._Plasma_Amyloid_beta40_._Instance_2		NA			gt.90%	p53_2
+31041	Plasma Amyloid beta-42	1273	2536	p31041_Date_first_reported_gt.90._Plasma_Amyloid_beta42_._Instance_2		NA			gt.90%	p53_2
+31042	Plasma Glial fibrillary acidic protein	1273	2539	p31042_Date_first_reported_gt.90._Plasma_Glial_fibrillary_acidic_protein_._Instance_2		NA			gt.90%	p53_2
+31044	Plasma pTau-181	1273	2531	p31044_Date_first_reported_gt.90._Plasma_pTau181_._Instance_2		NA			gt.90%	p53_2
+100001	Biological sampling			p100001_Date_first_reported_lt.10._Food_weight_._Instance_0		NA			lt.10%	p53_0
+100001	Biological sampling			p100001_Date_first_reported_lt.10._Food_weight_._Instance_1		NA			lt.10%	p53_1
+100001	Biological sampling			p100001_Date_first_reported_lt.10._Food_weight_._Instance_2		NA			lt.10%	p53_2
