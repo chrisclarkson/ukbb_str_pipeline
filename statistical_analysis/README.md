@@ -1,6 +1,6 @@
 # Data assembly and statistical analysis for HTT project
 
-Having extracted a list of clinical terms from the UKBB (available in: dating_and_threshold_ukbb_columns.tsv), we initially assembled the genotype data and clinical data
+Having extracted a list of clinical terms from the UKBB (available in: `dating_and_threshold_ukbb_columns.tsv`), we initially assembled the genotype data and clinical data
 and identified ICD10 codes that were not formally dated and were present >= 2 times in people with >=36 CAG repeats at the HTT locus. This was done using:
 
 ```
