@@ -1,7 +1,5 @@
-#trial on ppl with greater than 40
 library(data.table)
 library(ggplot2)
-setwd('~/Downloads')
 data=data.frame(fread('data_500k.tsv.gz',header=T),stringsAsFactors=F)
 data$VCF=basename(gsub('.vcf','',data$VCF))
 data=data[data$gene=='HTT',]
@@ -11,7 +9,6 @@ data=merge(data,age_at_recruitment,by.x = 'VCF',by.y = 'eid')
 data$CAP_at_recruitment=(data$p21022_Age_at_recruitment*(data$A2-30))/6.49
 data$age_when_cap_was_90=round((90*6.49)/(data$A2-30),0)
 
-# data=data[data$CAP_at_recruitment>60,]
 data=data[!is.na(data$CAP_at_recruitment),]
 data=data[,!(colnames(data)%in%c('p21022_Age_at_recruitment'))]
 meta_data=data.frame(fread('HTT_project_all_features_meta_file.tsv',sep='\t',header=T),stringsAsFactors=F)
@@ -72,8 +69,11 @@ convert_column_to_event=function(data,col,value_to_detect='notna'){
       new_col=unlist(lapply(data$p53_i3[new_col==1],function(x){strsplit(as.character(x),'-')[[1]][1]}))
       name=gsub('_._Instance_3',"",strsplit(col,'_i3_')[[1]][2])
       name=paste0('Date_first_reported_',name)
+    }else if(grepl(pattern='_i4_',col)){
+      new_col=unlist(lapply(data$p53_i3[new_col==1],function(x){strsplit(as.character(x),'-')[[1]][1]}))
+      name=gsub('_._Instance_4',"",strsplit(col,'_i4_')[[1]][2])
+      name=paste0('Date_first_reported_',name)
     }
-    # field_id=strsplit(col,'_')[[1]][1]
   }else{
     new_col[is.na(new_col)]=0
     # field_id=strsplit(col,'_')[[1]][1]

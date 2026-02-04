@@ -1,7 +1,5 @@
-#trial on ppl with greater than 40
 library(data.table)
 library(ggplot2)
-setwd('~/Downloads')
 data=data.frame(fread('data_500k.tsv.gz',header=T),stringsAsFactors=F)
 data$VCF=basename(gsub('.vcf','',data$VCF))
 data=data[data$gene=='HTT',]
@@ -12,10 +10,9 @@ data$CAP_at_recruitment=(data$p21022_Age_at_recruitment*(data$A2-30))/6.49
 data$age_when_cap_was_90=round((90*6.49)/(data$A2-30),0)
 
 
-# data=data[data$CAP_at_recruitment>60,]
 data=data[!is.na(data$CAP_at_recruitment),]
 data=data[,!(colnames(data)%in%c('p21022_Age_at_recruitment'))]
-meta_data=data.frame(fread('HTT_project_all_features_meta_file.tsv',sep='\t',header=T),stringsAsFactors=F)
+meta_data=data.frame(fread('HTT_project_all_features_meta_file_extra_cols.tsv.gz',sep='\t',header=T),stringsAsFactors=F)
 meta_data=meta_data[,!grepl(pattern = '^pNA_Date',colnames(meta_data))]
 idx=(colnames(meta_data)%in%colnames(data))
 idx[1]=FALSE
@@ -25,6 +22,7 @@ data$year_when_cap_was_90=data$p34_Year_of_birth+data$age_when_cap_was_90
 data$Diagnosed_Huntingtons=NA
 data$Diagnosed_Huntingtons[!is.na(data$p131012_Date_G10_first_reported_huntingtons_disease)]='Diagnosed with Huntingtons'
 data$Diagnosed_Huntingtons[is.na(data$p131012_Date_G10_first_reported_huntingtons_disease)]='Not Diagnosed with Huntingtons'
+
 
 self_reported_cols=colnames(data)[grep(pattern='p20002_i',colnames(data))]
 self_reported_col_dates=colnames(data)[grep(pattern='Interpolated',colnames(data))]
@@ -111,6 +109,10 @@ data=convert_single_column_to_event(data,c('p29150_Mobility_problems_today'),c('
 self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
 data=convert_single_column_to_event(data,c('p29152_Problems_doing_usual_activities'),c('p29206_When_online_General_health_questionnaire_completed'),1,'Problems_doing_usual_activities')
 self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
+
+data=convert_single_column_to_event(data,c('p29152_Problems_doing_usual_activities'),c('p29206_When_online_General_health_questionnaire_completed'),1,'Problems_doing_usual_activities')
+self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
+
 
 data=convert_single_column_to_event(data,'p40001_i0_Underlying_primary_cause_of_death._ICD10_._Instance_0','p40000_i0_Date_of_death_._Instance_0','C160','Date_Death_caused_by_Malignant_neoplasm_Cardia')
 self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
@@ -212,6 +214,13 @@ data=convert_single_column_to_event(data,'p40001_i0_Underlying_primary_cause_of_
 self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
 data=convert_single_column_to_event(data,'p40001_i0_Underlying_primary_cause_of_death._ICD10_._Instance_0','p40000_i0_Date_of_death_._Instance_0','Y34','Date_Death_caused_by_Other_specified_events_undetermined_intent')
 self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
+
+mental_heath_cols=colnames(data)[grep(pattern='p19',colnames(data))]
+for(m in mental_heath_cols){
+  data=convert_single_column_to_event(data,m,'p53_i0',1,paste0('Date_first_reported_',gsub('_._Instance_0','',gsub('p19\\d+_i0','',m))))
+  self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
+}
+
 # data=convert_single_column_to_event(data,'p40001_i1_Underlying_primary_cause_of_death._ICD10_._Instance_1','p40000_i1_Date_of_death_._Instance_1','C160','Date_Death_caused_by_Malignant_neoplasm_Cardia')
 # self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
 # data=convert_single_column_to_event(data,'p40001_i1_Underlying_primary_cause_of_death._ICD10_._Instance_1','p40000_i1_Date_of_death_._Instance_1','C180','Date_Death_caused_by_Malignant_neoplasm_Caecum')
@@ -316,5 +325,5 @@ self_reported_cols_out=c(self_reported_cols_out,colnames(data)[ncol(data)])
 data_self_reported=data
 
 data_main=cbind(data_main,data_cogs[,2:ncol(data_cogs)],data_self_reported[,self_reported_cols_out])
-write.table(data_main,'HTT_all_columns_death_dates_included.tsv',sep='\t',row.names=F,quote=F)
+write.table(data_main,'HTT_all_columns_death_dates_included_mental_health.tsv',sep='\t',row.names=F,quote=F)
 
