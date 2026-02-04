@@ -1,7 +1,5 @@
-#trial on ppl with greater than 40
 library(data.table)
 library(ggplot2)
-setwd('~/Downloads')
 data=data.frame(fread('data_500k.tsv.gz',header=T),stringsAsFactors=F)
 data$VCF=basename(gsub('.vcf','',data$VCF))
 data=data[data$gene=='HTT',]
@@ -12,7 +10,6 @@ data$CAP_at_recruitment=(data$p21022_Age_at_recruitment*(data$A2-30))/6.49
 data$age_when_cap_was_90=round((90*6.49)/(data$A2-30),0)
 
 
-# data=data[data$CAP_at_recruitment>60,]
 data=data[!is.na(data$CAP_at_recruitment),]
 data=data[,!(colnames(data)%in%c('p21022_Age_at_recruitment'))]
 meta_data=data.frame(fread('HTT_project_all_features_meta_file_extra_cols.tsv.gz',sep='\t',header=T),stringsAsFactors=F)
@@ -328,5 +325,5 @@ for(m in mental_heath_cols){
 data_self_reported=data
 
 data_main=cbind(data_main,data_cogs[,2:ncol(data_cogs)],data_self_reported[,self_reported_cols_out])
-write.table(data_main,'HTT_all_columns_death_dates_included.tsv',sep='\t',row.names=F,quote=F)
+write.table(data_main,'HTT_all_columns_death_dates_included_mental_health.tsv',sep='\t',row.names=F,quote=F)
 
