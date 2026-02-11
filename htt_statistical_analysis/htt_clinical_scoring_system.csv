@@ -1,0 +1,253 @@
+Event,Data sub-type,Data type,Data source,Points,Group
+p130836_Date_F00_first_reported_dementia_in_alzheimers_disease,dementia,cognitive,ICD-10,5,AA
+p130838_Date_F01_first_reported_vascular_dementia,dementia,cognitive,ICD-10,5,AA
+p130840_Date_F02_first_reported_dementia_in_other_diseases_classified_elsewhere,dementia,cognitive,ICD-10,5,AA
+p130842_Date_F03_first_reported_unspecified_dementia,dementia,cognitive,ICD-10,5,AA
+p131036_Date_G30_first_reported_alzheimers_disease,dementia,cognitive,ICD-10,5,AA
+Date_Death_caused_by_Alzheimer_disease_unspecified,dementia,cognitive,ICD-10,5,AA
+p130846_Date_F05_first_reported_delirium._not_induced_by_alcohol_and_other_psychoactive_substances,delirium or disorientation,cognitive,ICD-10,5,AA
+pNA_Date_F051_first_reported_Delirium_superimposed_on_dementia,delirium or disorientation,cognitive,ICD-10,5,AA
+pNA_Date_F059_first_reported_Delirium_unspecified,delirium or disorientation,cognitive,ICD-10,5,AA
+pNA_Date_R410_first_reported_Disorientation_unspecified,delirium or disorientation,cognitive,ICD-10,5,AA
+,,,,,
+p20016_Date_first_reported_Fluid_intelligence_score__Instance_3,intelligence,cognitive,assessment outcome,3,BA
+p20016_Date_first_reported_lt.10._Fluid_intelligence_score__Instance_0,intelligence,cognitive,assessment outcome,3,BA
+p20016_Date_first_reported_lt.10._Fluid_intelligence_score__Instance_1,intelligence,cognitive,assessment outcome,3,BA
+p20016_Date_first_reported_lt.10._Fluid_intelligence_score__Instance_2,intelligence,cognitive,assessment outcome,3,BA
+,,,,,
+p20023_Date_first_reported_lt.10._Mean_time_to_correctly_identify_matches__Instance_0,intelligence,cognitive,assessment outcome,3,CA
+p20023_Date_first_reported_lt.10._Mean_time_to_correctly_identify_matches__Instance_1,intelligence,cognitive,assessment outcome,3,CA
+p20023_Date_first_reported_lt.10._Mean_time_to_correctly_identify_matches__Instance_2,intelligence,cognitive,assessment outcome,3,CA
+p20023_Date_first_reported_Mean_time_to_correctly_identify_matches__Instance_3,intelligence,cognitive,assessment outcome,3,CA
+,,,,,
+p20139_Date_first_reported_lt.10._Number_of_letters_correctly_identified__Instance_2,intelligence,cognitive,assessment outcome,3,DA
+,,,,,
+p20159_Date_first_reported_lt.90._Number_of_symbol_digit_matches_made_correctly_._Instance_0,intelligence,cognitive,assessment outcome,3,EA
+p20159_Date_first_reported_lt.90._Number_of_symbol_digit_matches_made_correctly_._Instance_1,intelligence,cognitive,assessment outcome,3,EA
+p23324_Date_first_reported_lt.10._Number_of_symbol_digit_matches_made_correctly__Instance_2,intelligence,cognitive,assessment outcome,3,EA
+p23324_Date_first_reported_Number_of_symbol_digit_matches_made_correctly__Instance_3,intelligence,cognitive,assessment outcome,3,EA
+,,,,,
+p20197_Date_first_reported_lt.10._Number_of_word_pairs_correctly_associated__Instance_2,intelligence,cognitive,assessment outcome,3,FA
+p20197_Date_first_reported_Number_of_word_pairs_correctly_associated__Instance_3,intelligence,cognitive,assessment outcome,3,FA
+,,,,,
+p20760_Date_first_reported_lt.10._Number_of_puzzles_correctly_solved_._Instance_1,intelligence,cognitive,assessment outcome,3,GA
+,,,,,
+p21004_Date_first_reported_lt.10._Number_of_puzzles_correct__Instance_2,intelligence,cognitive,assessment outcome,3,HA
+p21004_Date_first_reported_Number_of_puzzles_correct__Instance_3,intelligence,cognitive,assessment outcome,3,HA
+,,,,,
+p26302_Date_first_reported_lt.10._Specific_cognitive_ability_AS__Instance_2,intelligence,cognitive,assessment outcome,3,IA
+,,,,,
+p6348_Date_first_reported_Duration_to_complete_numeric_path_trail_.1__Instance_3,intelligence,cognitive,assessment outcome,3,JA
+p6348_Date_first_reported_lt.10._Duration_to_complete_numeric_path_trail_.1__Instance_2,intelligence,cognitive,assessment outcome,3,JA
+,,,,,
+p6349_Date_first_reported_lt.10._Total_errors_traversing_numeric_path_trail_.1__Instance_2,intelligence,cognitive,assessment outcome,3,KA
+p6349_Date_first_reported_Total_errors_traversing_numeric_path_trail_.1__Instance_3,intelligence,cognitive,assessment outcome,3,KA
+,,,,,
+p6350_Date_first_reported_lt.10._Duration_to_complete_alphanumeric_path_trail_.2__Instance_2,intelligence,cognitive,assessment outcome,3,LA
+,,,,,
+p6351_Date_first_reported_lt.10._Total_errors_traversing_alphanumeric_path_trail_.2__Instance_2,intelligence,cognitive,assessment outcome,3,MA
+p6351_Date_first_reported_Total_errors_traversing_alphanumeric_path_trail_.2__Instance_3,intelligence,cognitive,assessment outcome,3,MA
+,,,,,
+p6373_Date_first_reported_lt.10._Number_of_puzzles_correctly_solved__Instance_2,intelligence,cognitive,assessment outcome,3,NA
+p6373_Date_first_reported_Number_of_puzzles_correctly_solved__Instance_3,intelligence,cognitive,assessment outcome,3,NA
+,,,,,
+p20018_Date_first_reported_lt.10._Prospective_memory_result__Instance_0,memory,cognitive,assessment outcome,3,OA
+p20018_Date_first_reported_lt.10._Prospective_memory_result__Instance_1,memory,cognitive,assessment outcome,3,OA
+p20018_Date_first_reported_lt.10._Prospective_memory_result__Instance_2,memory,cognitive,assessment outcome,3,OA
+p20018_Date_first_reported_Prospective_memory_result__Instance_3,memory,cognitive,assessment outcome,3,OA
+,,,,,
+p20132_Date_first_reported_gt.90._a0_Number_of_incorrect_matches_in_round_._Instance_0_._Array_0,memory,cognitive,assessment outcome,3,PA
+p20132_Date_first_reported_gt.90._a1_Number_of_incorrect_matches_in_round_._Instance_0_._Array_1,memory,cognitive,assessment outcome,3,PA
+p20132_Date_first_reported_gt.90._a2_Number_of_incorrect_matches_in_round_._Instance_0_._Array_2,memory,cognitive,assessment outcome,3,PA
+,,,,,
+p20240_Date_first_reported_lt.10._Maximum_digits_remembered_correctly_._Instance_0,memory,cognitive,assessment outcome,3,QA
+p4282_Date_first_reported_lt.10._Maximum_digits_remembered_correctly__Instance_0,memory,cognitive,assessment outcome,3,QA 
+p4282_Date_first_reported_lt.10._Maximum_digits_remembered_correctly__Instance_2,memory,cognitive,assessment outcome,3,QA
+,,,,,
+p20459_General_happiness_with_own_health_dated,health rating,General,self-reported,1,RA
+p2178_Date_first_reported_gt.4_Overall_health_rating_._Instance_0,health rating,General,self-reported,1,RA
+p29155_Scale_to_indicate_how_health_is_today_dated,health rating,General,self-reported,1,RA
+,,,,,
+p131038_Date_G31_first_reported_other_degenerative_diseases_of_nervous_system._not_elsewhere_classified,neurodegenerative,General,ICD-10,3,SA
+,,,,,
+p22040_Date_first_reported_lt.20._Summed_MET_minutes_per_week_for_all_activity_._Instance_0,activity,motor,self-reported,1,TA
+p22040_Date_first_reported_lt.20._Summed_MET_minutes_per_week_for_all_activity_._Instance_1,activity,motor,self-reported,1,TA
+p22040_Date_first_reported_lt.20._Summed_MET_minutes_per_week_for_all_activity_._Instance_2,activity,motor,self-reported,1,TA
+p22040_Date_first_reported_Summed_MET_minutes_per_week_for_all_activity,activity,motor,self-reported,1,TA
+p22032_Date_first_reported_gt.1_IPAQ_activity_group_._Instance_0,activity,motor,self-reported,1,TA
+p22032_Date_first_reported_gt.1_IPAQ_activity_group_._Instance_1,activity,motor,self-reported,1,TA
+p22032_Date_first_reported_gt.1_IPAQ_activity_group_._Instance_2,activity,motor,self-reported,1,TA
+p22032_Date_first_reported_IPAQ_activity_group,activity,motor,self-reported,1,TA
+,,,,,
+pNA_Date_R13_first_reported_Dysphagia,dysphagia,motor,ICD-10,1,UA
+,,,,,
+Difficulty_with_doing_your_day.to.day_work,everyday activities,General,self-reported,1,VA
+Difficulty_with_taking_care_of_household_responsibilities,everyday activities,General,self-reported,1,VA
+Problems_doing_usual_activities,everyday activities,General,self-reported,1,VA
+,,,,,
+Difficulty_with_concentrating_on_doing_something_for_ten_minutes,attention,cognitive,self-reported,1,WA
+,,,,,
+Difficulty_learning_a_new_task,everyday activities,cognitive,self-reported,1,XA
+,,,,,
+Difficulty_with_standing_for_long_periods,everyday activities,motor,self-reported,1,YA
+Difficulty_with_walking_a_long_distance,everyday activities,motor,self-reported,1,YA
+Difficulty_with_washing_whole_body,everyday activities,motor,self-reported,1,YA
+Mobility_problems_today,everyday activities,motor,self-reported,1,YA
+p29151_Selfcare_problems_today_dated,everyday activities,motor,self-reported,1,YA
+p28729_Currently_suffering_from_weakness_of_muscles_or_difficulty_moving_arms_and_legs_dated,motor,motor,self-reported,1,YA
+,,,,,
+p131012_Date_G10_first_reported_huntingtons_disease,HD diagnosis,motor,ICD-10,5,ZA
+Date_Death_caused_by_Huntington_disease,HD diagnosis,motor,ICD-10,5,ZA
+p131032_Date_G25_first_reported_other_extrapyramidal_and_movement_disorders,extrapyramidal,motor,ICD-10,5,ZA
+pNA_Date_G255_first_reported_Other_chorea,extrapyramidal,motor,ICD-10,5,ZA
+,,,,,
+p131022_Date_G20_first_reported_parkinsons_disease,extrapyramidal,motor,ICD-10,5,AB
+p42032_Date_of_parkinsons_disease_report,extrapyramidal,motor,both,5,AB
+pNA_Date_G20_first_reported_Parkinson_disease,extrapyramidal,motor,ICD-10,5,AB
+p42030_Date_of_all_cause_parkinsonism_report,extrapyramidal,motor,both,5,AB
+Date_Death_caused_by_Parkinson_disease,extrapyramidal,motor,ICD-10,5,AB
+,,,,,
+p131030_Date_G24_first_reported_dystonia,extrapyramidal,motor,ICD-10,5,BB
+,,,,,
+pNA_Date_R268_first_reported_Other_and_unspecified_abnormalities_of_gait_and_mobility,gait,motor,ICD-10,3,CB
+,,,,,
+pNA_Date_R296_first_reported_Tendency_to_fall_not_elsewhere_classified,falls,motor,ICD-10,3,DB
+p2296_Date_first_reported_gt.90._Falls_in_the_last_year_._Instance_0,falls,motor ,self-reported,1,DB
+p2296_Date_first_reported_Falls_in_the_last_year,falls,motor,self-reported,1,DB
+p2296_Date_first_reported_gt.90._Falls_in_the_last_year_._Instance_1,falls,motor,self-reported,1,DB
+p2296_Date_first_reported_gt.90._Falls_in_the_last_year_._Instance_2,falls,motor,self-reported,1,DB
+p3005_Date_first_reported_Fracture_resulting_from_simple_fall_._Instance_0,falls,motor,self-reported,1,DB
+p3005_Date_first_reported_Fracture_resulting_from_simple_fall_._Instance_2,falls,motor,self-reported,1,DB
+pNA_Date_S008_first_reported_Superficial_injury_of_other_parts_of_head,falls,motor,ICD-10,1,DB
+pNA_Date_S009_first_reported_Superficial_injury_of_head_part_unspecified,falls,motor,ICD-10,1,DB
+pNA_Date_S010_first_reported_Open_wound_of_scalp,falls,motor,ICD-10,1,DB
+pNA_Date_S018_first_reported_Open_wound_of_other_parts_of_head,falls,motor,ICD-10,1,DB
+pNA_Date_S019_first_reported_Open_wound_of_head_part_unspecified,falls,motor,ICD-10,1,DB
+pNA_Date_S022_first_reported_Fracture_of_nasal_bones,falls,motor,ICD-10,1,DB
+pNA_Date_S065_first_reported_Traumatic_subdural_haemorrhage,falls,motor,ICD-10,1,DB
+pNA_Date_S099_first_reported_Unspecified_injury_of_head,falls,motor,ICD-10,1,DB
+pNA_Date_S525_first_reported_Fracture_of_lower_end_of_radius,falls,motor,ICD-10,1,DB
+,,,,,
+pNA_Date_R478_first_reported_Other_and_unspecified_speech_disturbances,speech,motor,ICD-10,1,EB
+,,,,,
+p131518_Date_J69_first_reported_pneumonitis_due_to_solids_and_liquids,late-stage complication ,motor,ICD-10,1,FB
+pNA_Date_J690_first_reported_Pneumonitis_due_to_food_and_vomit,late-stage complication ,motor,ICD-10,1,FB
+,,,,,
+p130762_Date_E46_first_reported_unspecified_proteinenergy_malnutrition,nutrition,motor,ICD-10,1,GB
+pNA_Date_R634_first_reported_Abnormal_weight_loss,nutrition,motor,ICD-10,1,GB
+,,,,,
+p1200_Date_first_reported_gt.2_Sleeplessness_._insomnia_._Instance_0,sleep,other,self-reported,1,HB
+p1200_Date_first_reported_gt.2_Sleeplessness_._insomnia_._Instance_1,sleep,other,self-reported,1,HB
+p1200_Date_first_reported_gt.2_Sleeplessness_._insomnia_._Instance_2,sleep,other,self-reported,1,HB
+p1200_Date_first_reported_Sleeplessness_._insomnia,sleep,other,self-reported,1,HB
+p28687_Currently_suffering_from_difficulty_sleeping_dated,sleep,other,self-reported,1,HB
+p30467_Overall_quality_of_sleep_in_past_month_dated,sleep,other,self-reported,1,HB
+p30470_Sleep_quality_on_a_typical_night_in_2019_dated,sleep,other,self-reported,1,HB
+p30539_Sleep_quality_in_the_past_month_dated,sleep,other,self-reported,1,HB
+p131060_Date_G47_first_reported_sleep_disorders,sleep,other,self-reported,1,HB
+p28693_Currently_suffering_from_unrestful_sleep_dated,sleep,other,self-reported,1,HB
+p30426_Tiredness_after_waking_dated,sleep,other,self-reported,1,HB
+p30567_Feelings_of_tiredness_after_sleep_dated,sleep,other,self-reported,1,HB
+p30538_Number_of_nights_a_week_of_problematic_sleep_in_the_past_month_dated,sleep,other,self-reported,1,HB
+,,,,,
+p130906_Date_F41_first_reported_other_anxiety_disorders,anxiety,psychiatric,ICD-10,1,IB
+pNA_Date_F410_first_reported_Panic_disorder_episodic_paroxysmal_anxiety,anxiety,psychiatric,ICD-10,1,IB
+anxiety_or_panic_attacks,anxiety,psychiatric,self-reported,1,IB
+p20421_Ever_felt_worried._tense._or_anxious_for_most_of_a_month_or_longer_dated,anxiety,psychiatric,self-reported,1,IB
+p23045_Date_first_reported_gt.2_a0_Very_nervous_mood_over_last_week_._Instance_0_._Array_0,anxiety,psychiatric,self-reported,1,IB
+p23045_Date_first_reported_gt.2_a0_Very_nervous_mood_over_last_week_._Instance_1_._Array_0,anxiety,psychiatric,self-reported,1,IB
+p29058_Recent_feelings_or_nervousness_or_anxiety_dated,anxiety,psychiatric,self-reported,1,IB
+Feeling_anxious._nervous_or_on_edge_over_the_last_2_weeks,anxiety,psychiatric,self-reported,1,IB
+,,,,,
+p130850_Date_F07_first_reported_personality_and_behavioural_disorders_due_to_brain_disease._damage_and_dysfunction,behavioural,psychiatric,ICD-10,3,JB
+,,,,,
+p130854_Date_F10_first_reported_mental_and_behavioural_disorders_due_to_use_of_alcohol,behavioural,psychiatric,ICD-10,1,KB
+pNA_Date_F102_first_reported_Mental_and_behavioural_disorders_due_to_use_of_alcohol,behavioural,psychiatric,ICD-10,1,KB
+p20416_Frequency_of_consuming_six_or_more_units_of_alcohol_dated,behavioural,psychiatric,self-reported,1,KB
+p29093_Frequency_of_consuming_six_or_more_units_of_alcohol_dated,behavioural,psychiatric,self-reported,1,KB
+p29092_Amount_of_alcohol_drunk_on_a_typical_drinking_day_dated,behavioural,psychiatric,self-reported,1,KB
+,,,,,
+p130890_Date_F30_first_reported_manic_episode,bipolar,psychiatric,ICD-10,5,LB
+p130892_Date_F31_first_reported_bipolar_affective_disorder,bipolar,psychiatric,ICD-10,5,LB
+p29049_Ever_had_period_of_mania_._excitability_dated,bipolar,psychiatric,self-reported,1,LB
+,,,,,
+p130894_Date_F32_first_reported_depressive_episode,depression,psychiatric,ICD-10,1,MB
+p130896_Date_F33_first_reported_recurrent_depressive_disorder,depression,psychiatric,ICD-10,1,MB
+pNA_Date_F321_first_reported_Moderate_depressive_episode,depression,psychiatric,ICD-10,1,MB
+pNA_Date_F322_first_reported_Severe_depressive_episode_without_psychotic_symptoms,depression,psychiatric,ICD-10,1,MB
+pNA_Date_F329_first_reported_Depressive_episode_unspecified,depression,psychiatric,ICD-10,1,MB
+pNA_Date_F412_first_reported_Mixed_anxiety_and_depressive_disorder,depression and anxiety,psychiatric,ICD-10,1,MB
+p130898_Date_F34_first_reported_persistent_mood_.affective._disorders,mood disorder,psychiatric,ICD-10,1,MB
+p130902_Date_F39_first_reported_unspecified_mood_.affective._disorder,mood disorder,psychiatric,ICD-10,1,MB
+p20123_Date_first_reported_1_Single_episode_of_probable_major_depression_._Instance_0,depression,psychiatric,self-reported,1,MB
+p20124_Date_first_reported_1_Probable_recurrent_major_depression_moderate_._Instance_0,depression,psychiatric,self-reported,1,MB
+p20125_Date_first_reported_1_Probable_recurrent_major_depression_severe_._Instance_0,depression,psychiatric,self-reported,1,MB
+p20126_Date_first_reported_gt.1_Bipolar_and_major_depression_status_._Instance_0,mood disorder,psychiatric,self-reported,1,MB
+Feeling_down._depressed_or_hopeless_over_the_last_2_weeks,depression,psychiatric,self-reported,1,MB
+p29037_Professional_informed_about_depression_dated,depression,psychiatric,self-reported,1,MB
+depression,depression,psychiatric,self-reported,1,MB
+p20437_Thoughts_of_death_during_worst_depression_dated,depression,psychiatric,self-reported,1,MB
+p29029_Thoughts_of_death_during_worst_depression_dated,depression,psychiatric,self-reported,1,MB
+p20446_Ever_had_prolonged_feelings_of_sadness_or_depression_dated,depression,psychiatric,self-reported,1,MB
+p20448_Professional_informed_about_depression_dated,depression,psychiatric,self-reported,1,MB
+p20458_General_happiness_dated,depression,psychiatric,self-reported,1,MB
+p20460_Belief_that_own_life_is_meaningful_dated,depression,psychiatric,self-reported,1,MB
+p20510_Recent_feelings_of_depression_dated,depression,psychiatric,self-reported,1,MB
+p20513_Recent_thoughts_of_suicide_or_selfharm_dated,depression,psychiatric,self-reported,1,MB
+p23046_Date_first_reported_gt.2_a0_Down_in_dumps_over_last_week_._Instance_0_._Array_0,depression,psychiatric,self-reported,1,MB
+p23046_Date_first_reported_gt.2_a0_Down_in_dumps_over_last_week_._Instance_1_._Array_0,depression,psychiatric,self-reported,1,MB
+p23072_Date_first_reported_gt.2_a0_Downhearted_and_depressed_over_last_week_._Instance_0_._Array_0,depression,psychiatric,self-reported,1,MB
+p23072_Date_first_reported_gt.2_a0_Downhearted_and_depressed_over_last_week_._Instance_1_._Array_0,depression,psychiatric,self-reported,1,MB
+p28737_Little_interest_or_pleasure_in_doing_things_over_the_last_2_weeks_dated,depression,psychiatric,self-reported,1,MB
+p29003_Recent_feelings_of_depression_dated,depression,psychiatric,self-reported,1,MB
+p29011_Ever_had_prolonged_feelings_of_sadness_or_depression_dated,depression,psychiatric,self-reported,1,MB
+p29181_General_happiness_dated,depression,psychiatric,self-reported,1,MB
+p29182_Belief_that_own_life_is_meaningful_dated,depression,psychiatric,self-reported,1,MB
+p4526_Date_first_reported_gt.3_Happiness_._Instance_0,depression,psychiatric,self-reported,1,MB
+p4526_Date_first_reported_gt.3_Happiness_._Instance_1,depression,psychiatric,self-reported,1,MB
+p4526_Date_first_reported_gt.3_Happiness_._Instance_2,depression and anxiety,psychiatric,self-reported,1,MB
+p4526_Date_first_reported_Happiness,depression,psychiatric,self-reported,1,MB
+p29154_Anxiety.depression_today_dated,depression and anxiety,psychiatric,self-reported,1,MB
+,,,,,
+pNA_Date_F458_first_reported_Other_somatoform_disorders,functional disorder,psychiatric,ICD-10,1,NB
+,,,,,
+p29050_Ever_had_period_extreme_irritability_dated,irritability,psychiatric,self-reported,1,OB
+p29063_Recent_easy_annoyance_or_irritability_dated,irritability,psychiatric,self-reported,1,OB
+,,,,,
+p130848_Date_F06_first_reported_other_mental_disorders_due_to_brain_damage_and_dysfunction_and_to_physical_disease,mental disorders,psychiatric,ICD-10,1,PB
+,,,,,
+p20499_Ever_sought_or_received_professional_help_for_mental_distress_dated,mental distress,psychiatric,self-reported,1,QB
+p20500_Ever_suffered_mental_distress_preventing_usual_activities_dated,mental distress,psychiatric,self-reported,1,QB
+,,,,,
+p20127_Date_first_reported_gt.90._Neuroticism_score_._Instance_0,neuriticism,psychiatric,derived self-reported,1,RB
+Date_first_reported__Fedup_feelings,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Irritability,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Miserableness,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Mood_swings,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Nervous_feelings,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Sensitivity_._hurt_feelings,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Tense_._highly_strung,neuriticism,psychiatric,self-reported,0,
+Date_first_reported__Worrier_._anxious_feelings,neuriticism,psychiatric,self-reported,0,
+,,,,,
+p130878_Date_F22_first_reported_persistent_delusional_disorders,psychosis,psychiatric,ICD-10,5,SB
+p130880_Date_F23_first_reported_acute_and_transient_psychotic_disorders,psychosis,psychiatric,ICD-10,5,SB
+p130888_Date_F29_first_reported_unspecified_nonorganic_psychosis,psychosis,psychiatric,ICD-10,5,SB
+,,,,,
+p130916_Date_F48_first_reported_other_neurotic_disorders,Neurotic disorders,psychiatric,ICD-10,1,TB
+,,,,,
+p20483_Ever_attempted_suicide_dated,suicidal and self harm,psychiatric,self-reported,3,UB
+p29116_Ever_attempted_suicide_dated,suicidal and self harm,psychiatric,self-reported,3,UB
+p20484_Attempted_suicide_in_past_year_dated,suicidal and self harm,psychiatric,self-reported,3,UB
+p29117_Attempted_suicide_in_past_year_dated,suicidal and self harm,psychiatric,self-reported,3,UB
+p20480_Ever_selfharmed_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p29111_Ever_selfharmed_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p20481_Selfharmed_in_past_year_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p29114_Selfharmed_in_past_year_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p20482_Number_of_times_selfharmed_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p29010_Recent_thoughts_of_suicide_or_selfharm_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p20485_Ever_contemplated_selfharm_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p29109_Ever_contemplated_selfharm_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p20486_Contemplated_selfharm_in_past_year_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p29110_Contemplated_selfharm_in_past_year_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p20479_Ever_thought_that_life_not_worth_living_dated,suicidal and self harm,psychiatric,self-reported,1,UB
+p29108_Ever_thought_that_life_not_worth_living_dated,suicidal and self harm,psychiatric,self-reported,1,UB

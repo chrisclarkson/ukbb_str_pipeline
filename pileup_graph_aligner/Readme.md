@@ -1,5 +1,5 @@
 <!-- dx-header -->
-# pileup_graph_aligner] (DNAnexus Platform App)
+# pileup_graph_aligner (DNAnexus Platform App)
 
 Does pileups on EH Bamlet files
 
